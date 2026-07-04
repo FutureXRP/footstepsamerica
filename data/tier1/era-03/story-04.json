@@ -1,0 +1,40 @@
+{
+  "id": "era03-story04",
+  "era": 3,
+  "slot": 4,
+  "title": "To the Western Sea",
+  "subtitle": "Lewis and Clark, 1804–1806",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era03-story04.webp",
+  "paragraphs": [
+    "President Jefferson has just bought a wilderness the size of Western Europe, and no American can tell him what is in it. So he sends his personal secretary to go look.",
+    "Meriwether Lewis is a moody, brilliant young army officer whom Jefferson has crammed with crash courses in mapmaking, medicine, and science. Lewis picks a partner he trusts completely, a big redheaded frontier soldier named William Clark. In May 1804, their Corps of Discovery, about four dozen soldiers and frontiersmen, starts up the Missouri River, rowing and dragging a heavy keelboat against the current, bound for the Pacific Ocean.",
+    "Among them is a man named York, who has no choice about coming. He is enslaved, held by Clark since boyhood. On this journey he will hunt, haul, scout, and stand watch as a full member of the crew, and native leaders along the way will study this powerful Black man with fascination. Remember him. His part of the story is not finished.",
+    "The corps spends its first winter at the earth-lodge towns of the Mandan people, in what is now North Dakota, where the prairie cold drops far below zero. And it is here they meet the person who will quietly hold the expedition together.",
+    "Her name is Sacagawea. She is a Shoshone teenager, perhaps sixteen, who was kidnapped from her people as a girl and is now married to a French trapper the captains hire as an interpreter. She joins the expedition with a newborn son strapped to her back. She will cross the continent and back, mountains, rapids, starvation and all, with a baby.",
+    "She earns her place within weeks. When a gust capsizes one of the boats and the men panic, Sacagawea, calm in the churning water, catches the instruments, medicines, and journals as they float away. The captains name a river for her. And her simple presence changes everything the corps meets, for as Clark writes, no war party travels with a woman and a baby. To wary nations watching from the hills, she is a walking sign of peace.",
+    "The luck she brings turns almost miraculous in the summer of 1805. The corps desperately needs horses to cross the Rocky Mountains, and the only horses belong to the Shoshone. When Sacagawea is brought in to translate for a Shoshone chief named Cameahwait, she stares, runs to him, and throws her blanket around him, weeping. The chief is her brother. The corps gets its horses.",
+    "The mountains nearly kill them anyway. Snow, no game, boiled candles for dinner. Starving, they stagger down into the country of the Nez Perce, who could end them with a word and instead feed them, shelter them, and keep their horses safe until spring. Like so much of this journey, survival comes as a gift from people who owed them nothing.",
+    "In November 1805, they finally hear waves. Clark scrawls in his journal, in his wild spelling, his joy at the great Pacific Ocean which they had been so long anxious to see. And then the whole corps votes on where to spend the winter. Everyone's voice is counted, including York's, and including Sacagawea's. A Black man and a native woman, voting in an American election, decades before the country catches up to that little moment on the beach.",
+    "They make it home in 1806, two years and some eight thousand miles after starting, having lost exactly one man, to a burst appendix no doctor on earth could have cured. They bring back maps, journals bursting with plants and animals new to science, and word of nations no American official had ever met.",
+    "Honesty requires the ending. The trails they mapped became the roads of a flood of settlers, and for the peoples who fed and guided the corps, what followed was not friendship but loss. And York, who had crossed a continent as a free-acting man, asked Clark for his freedom when they returned. For years, Clark said no.",
+    "The journey is one of the great adventures in American history, and it was carried, again and again, on the backs and the mercy of people whose names most Americans never learned. Now you know some of them."
+  ],
+  "audio": {
+    "src": "audio/tier1/era03-story04.mp3",
+    "timestamps": "audio/tier1/era03-story04.json"
+  },
+  "connections": {
+    "trait": "Resourcefulness",
+    "body": "Nobody on the expedition had done anything like it before. They fixed boats with what the river gave them, ate what the country offered, and talked their way through a dozen languages with sign talk and patience. Resourcefulness is the art of solving the problem in front of you with what you actually have.",
+    "askTogether": "Think of a time something broke, or a plan fell apart. What did you make work with only the things you had on hand?"
+  },
+  "sources": [
+    "Corps of Discovery departed May 1804, roughly 45 members; Fort Mandan winter 1804-05; Fort Clatsop winter 1805-06; return Sept 1806; one death (Sgt. Charles Floyd, likely appendicitis).",
+    "Sacagawea's Shoshone origin, kidnapping, marriage to Charbonneau, infant Jean Baptiste; the May 1805 capsize rescue and the Sacagawea River naming (captains' journals).",
+    "Cameahwait reunion, Aug 1805, from the journals. Clark's note that a woman with a party is a token of peace, Oct 1805.",
+    "Nez Perce aid, fall 1805 and spring 1806. Nov 1805 'Ocian in view' and the Nov 24 winter-quarters vote including York and Sacagawea (journals).",
+    "York's postexpedition requests for freedom and Clark's refusals, from Clark's letters to his brother; York was freed years later, date uncertain."
+  ]
+}

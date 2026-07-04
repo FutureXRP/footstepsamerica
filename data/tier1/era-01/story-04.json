@@ -1,0 +1,40 @@
+{
+  "id": "era01-story04",
+  "era": 1,
+  "slot": 4,
+  "title": "Three Loaves of Bread",
+  "subtitle": "Philadelphia, 1723–1752",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era01-story04.webp",
+  "paragraphs": [
+    "A seventeen-year-old boy steps off a boat in Philadelphia with his pockets nearly empty and his spare shirts stuffed in his coat. He is hungry, so he buys three great puffy bread rolls. He walks up Market Street with one under each arm, eating the third.",
+    "A girl named Deborah Read, standing in her father's doorway, sees him pass and laughs out loud at the ridiculous sight. Years later, she will marry him.",
+    "The boy is Benjamin Franklin, and he is a runaway.",
+    "Back in Boston he was an apprentice in his brother's print shop, bound by law to work there until he turned twenty-one. His brother beat him. Ben, who had already secretly written essays so clever the whole town discussed them, decided he was done. He slipped onto a ship and did not look back.",
+    "In Philadelphia he does the one thing he knows: he works. He sets type faster and cleaner than anyone, saves his money, and by his twenties owns his own print shop. He publishes an almanac stuffed with jokes and sayings under the name Poor Richard. Early to bed and early to rise, makes a man healthy, wealthy, and wise. The little book sells by the thousands, year after year.",
+    "But here is the thing about Franklin. Getting rich bores him. What he loves is fixing things, and he treats his whole city as a thing to fix.",
+    "Books are expensive, so he and his friends pool their money and invent a lending library, one of the first in America. Houses keep burning down, so he organizes a volunteer fire company. He helps start a hospital, a college, a postal service that actually delivers. His idea is always the same: ordinary people, joining together, can do the things they used to wait for kings to do.",
+    "And always, he is asking questions. Why do storms move the way they do? Why does dark cloth grow hotter in the sun than light cloth? And the big one: is lightning the same stuff as the little electric sparks he makes in his workshop?",
+    "In 1752, the story is told, he flies a kite into a thunderstorm with a metal key tied to the string, and when the storm charge trickles down the wet twine, the key spits sparks. Lightning is electricity. Franklin is lucky the experiment does not kill him. A scientist in Russia who tries something similar soon after is struck dead.",
+    "Franklin turns the discovery into the lightning rod, a simple iron spike that guides lightning harmlessly into the ground. Churches and houses that used to burn now stand through the worst storms. He refuses to patent it. He never patents any of his inventions, his stove, his bifocal glasses, none of them. Since we enjoy advantages from the inventions of others, he writes, we should be glad to serve others with our own, and do it freely.",
+    "The runaway with the bread rolls becomes the most famous American in the world. Kings' courts in Europe know his name. And he made it all, as he liked to point out, with ink, curiosity, and work.",
+    "There has never been anyone quite like him. But the door he walked through, the one where a nobody with a good idea can become anybody, that door is now part of what America means."
+  ],
+  "audio": {
+    "src": "audio/tier1/era01-story04.mp3",
+    "timestamps": "audio/tier1/era01-story04.json"
+  },
+  "connections": {
+    "trait": "Curiosity",
+    "body": "Franklin never stopped asking why, and he never stopped at just asking. He tested, tinkered, and turned every answer into something useful for his neighbors. Curiosity that serves other people is one of the most powerful forces in the world.",
+    "askTogether": "What is something you have always wondered about? What is one small experiment you could actually do to find out?"
+  },
+  "sources": [
+    "Arrival in Philadelphia at 17 with the three puffy rolls, and Deborah Read laughing from her doorway: Franklin's Autobiography.",
+    "Apprenticeship to brother James, the secret Silence Dogood essays, and the 1723 flight from Boston: Autobiography.",
+    "Poor Richard's Almanack published 1732-1758; Library Company founded 1731; Union Fire Company 1736; Pennsylvania Hospital 1751; Academy of Philadelphia (later Univ. of Pennsylvania).",
+    "Kite experiment, June 1752, as related by Franklin to Joseph Priestley, flagged with 'the story is told'; Georg Richmann killed by lightning in St. Petersburg, 1753.",
+    "Refusal to patent, paraphrasing the Autobiography's 'as we enjoy great advantages from the inventions of others...' passage."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "era04-story02",
+  "era": 4,
+  "slot": 2,
+  "title": "The Long Walk",
+  "subtitle": "The Trail of Tears, 1838",
+  "tier": 1,
+  "readMinutes": 6,
+  "heroImage": "assets/art/era04-story02.webp",
+  "paragraphs": [
+    "This story happened. It is hard to hear, and it is ours.",
+    "In the green mountains of Georgia and the Carolinas lives the Cherokee Nation, and by 1830 the Cherokee have done everything the United States ever asked of its neighbors. They farm. They print. They govern. A Cherokee genius named Sequoyah, who could not read any language, has invented a writing system for his own, eighty-five characters, one for each syllable, so simple and right that within a few years most of the nation can read. Think about that. One man gave an entire people the gift of reading, almost overnight.",
+    "The Cherokee publish their own newspaper, the Cherokee Phoenix, in two languages. They write a constitution with courts and elections. Their capital, New Echota, has a council house and a supreme court. If the American promise means anything, the Cherokee have earned every word of it.",
+    "Then, in 1829, gold is found on Cherokee land in Georgia.",
+    "What happens next moves with terrible speed. Georgia declares Cherokee laws void and starts raffling off Cherokee farms to white settlers. And in Washington, President Andrew Jackson pushes a law called the Indian Removal Act, to trade the eastern homelands of the native nations for unfamiliar land west of the Mississippi. It passes in 1830, after furious debate. Not everyone looks away. Congressmen, missionaries, and thousands of ordinary Americans protest that the removal is a betrayal of every promise the country has made.",
+    "The Cherokee do not go to war. They go to court. They carry their case all the way to the Supreme Court of the United States, and in 1832, in a case called Worcester versus Georgia, they win. Chief Justice John Marshall rules that Georgia's laws have no force in Cherokee country, which belongs to the Cherokee.",
+    "They win, and it does not matter. Georgia ignores the ruling. President Jackson, who is supposed to enforce the Court's decisions, does nothing of the kind.",
+    "Then comes the paper that breaks the nation's heart. In 1835, a small group of Cherokee men, without any authority, sign a treaty selling the entire homeland. The Cherokee government rejects it. Principal Chief John Ross delivers a protest to Congress carrying nearly sixteen thousand Cherokee signatures, almost the whole nation, saying: we never agreed to this. The Senate approves the fake treaty anyway, by a single vote.",
+    "In the spring of 1838, seven thousand soldiers come to enforce it. Families are taken from their cabins and fields, some with only the clothes they are wearing, and held in stockades through the summer while sickness spreads. Then, group by group, about sixteen thousand Cherokee people are marched and shipped west, some routes stretching around a thousand miles, through one of the coldest winters anyone can remember.",
+    "There is not enough food. There are not enough blankets. The very old and the very young die first. By the time the last group reaches what is now Oklahoma, about four thousand people, roughly one in four, are gone. Among the dead is Quatie Ross, the chief's own wife. The Cherokee remember the road in their own language as the trail where they cried.",
+    "Now here is what the people who did this could not take.",
+    "In the west, grieving and starting from nothing, the Cherokee rebuild everything. Within a year they adopt a new constitution and found a new capital at Tahlequah. The presses run again. They build schools, and then something astonishing: two seminaries of higher learning, one of them among the first such schools for young women west of the Mississippi. The nation that was supposed to disappear becomes one of the largest tribal nations in America, and it is still here, still governing itself, today.",
+    "You can take nearly everything from a people, their farms, their mountains, even the lives of the ones they love, and still fail to take the thing that makes them a people. The Cherokee proved that at the end of the worst road in American history. The country that forced the walk has to carry the memory honestly. That is part of what loving it means."
+  ],
+  "audio": {
+    "src": "audio/tier1/era04-story02.mp3",
+    "timestamps": "audio/tier1/era04-story02.json"
+  },
+  "connections": {
+    "trait": "Justice",
+    "body": "The Cherokee kept every promise and trusted the law, and the law failed them because powerful people refused to obey it. Justice is not only courts and rulings. It is people choosing to keep their word when keeping it costs something. Telling this story truthfully is one of the promises we can still keep.",
+    "askTogether": "What happens to trust when a promise is broken? Is there a promise you have made that would be hard to keep if it cost you something?"
+  },
+  "sources": [
+    "Sequoyah's syllabary completed 1821, ~85-86 characters, with rapid mass literacy; Cherokee Phoenix founded 1828; Cherokee constitution 1827; capital at New Echota.",
+    "Georgia gold rush from 1829; Georgia's extension laws and land lotteries; Indian Removal Act, May 1830, passed over strong congressional and public protest.",
+    "Worcester v. Georgia (1832): Marshall's ruling that Georgia law has no force in Cherokee territory; non-enforcement by Georgia and the Jackson administration. The popular Jackson quote about Marshall enforcing his own decision is apocryphal and deliberately omitted.",
+    "Treaty of New Echota, Dec 1835, signed by an unauthorized minority; Ross protest bearing nearly 16,000 signatures; Senate ratification May 1836 by one vote over the two-thirds threshold.",
+    "1838 roundup under Gen. Winfield Scott (~7,000 troops); about 16,000 removed; death estimates commonly about 4,000 ('roughly one in four'); Quatie Ross died on the journey (accounts vary on details); 'trail where they cried' translation of the Cherokee name.",
+    "Rebuilding: 1839 constitution, Tahlequah capital, Cherokee Advocate press, male and female seminaries (1851); Cherokee Nation today among the largest tribal nations."
+  ]
+}

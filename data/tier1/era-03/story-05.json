@@ -1,0 +1,40 @@
+{
+  "id": "era03-story05",
+  "era": 3,
+  "slot": 5,
+  "title": "The Flag Was Still There",
+  "subtitle": "Washington and Baltimore, 1814",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era03-story05.webp",
+  "paragraphs": [
+    "The president's dinner is still warm on the table when the British army walks into the White House and eats it.",
+    "It is August 1814, and the United States is losing a war to Britain. Again. This second war, the War of 1812, began over British warships kidnapping American sailors and other old grudges, and it has gone badly. Now a British force has scattered the American militia outside Washington and is marching into the capital itself, torches ready.",
+    "At the White House, First Lady Dolley Madison refuses to leave on schedule. Wagons wait at the door, but she has spotted the huge portrait of George Washington on the dining room wall, and she will not let it become a British trophy. The frame is screwed to the wall and will not budge, so she orders the frame broken and the canvas carried away to safety. Then she flees, minutes ahead of the enemy.",
+    "That night the sky over Washington glows orange. The White House, the Capitol, the navy yard, all burning. It is the lowest single night in the young country's life.",
+    "The British force sails on toward its next target: Baltimore, one of America's great ports. But Baltimore has had time to get ready. The harbor is guarded by a star-shaped fort called Fort McHenry, and its commander has ordered a flag made so enormous, he says, that the British will have no difficulty seeing it from a distance. A Baltimore flagmaker named Mary Pickersgill and her helpers sew it on the floor of a brewery, because no ordinary room is big enough. It is thirty feet tall and forty-two feet long.",
+    "On the morning of September 13, 1814, the British fleet opens fire on the fort, and does not stop for twenty-five hours.",
+    "The ships stay out beyond the reach of the fort's guns and pour in bombs and rockets, more than 1,500 of them. Bombshells with burning fuses arc through the rain all night, exploding in the air. The rockets scrawl red streaks across the dark. The soldiers in the fort can do little but crouch and endure it.",
+    "Eight miles away, an American lawyer watches the whole bombardment from the deck of a truce ship, unable to do anything at all. His name is Francis Scott Key. He had sailed out to negotiate a prisoner's release, and the British, not wanting their attack plans leaked, are politely holding him until the battle ends. All night he paces, watching the explosions, knowing only this: as long as the shells keep bursting, the fort has not surrendered.",
+    "Sometime before dawn, the guns fall silent. Silence could mean victory. Silence could mean surrender. Key stares into the dark and mist, waiting for light, straining to see one thing: which flag is flying over the fort.",
+    "The dawn comes up gray, and then, through the clearing mist, he sees it. The enormous flag, hoisted defiant in the morning air. The British are giving up and sailing away. Baltimore stands.",
+    "Right there, on the back of a letter in his pocket, Key begins scribbling. O say can you see, by the dawn's early light. The verses are printed within days, set to a well-known tune, and sung in the streets of Baltimore before the month is out. He calls the song The Star-Spangled Banner. More than a century later, Congress makes it the national anthem.",
+    "The war itself ends a few months later in a treaty that settles almost nothing on paper. But something has changed anyway. The country burned its capital and did not fall. A song from that war is asking a question, and Americans have been answering it every time they stand and sing: the flag is still there."
+  ],
+  "audio": {
+    "src": "audio/tier1/era03-story05.mp3",
+    "timestamps": "audio/tier1/era03-story05.json"
+  },
+  "connections": {
+    "trait": "Hope",
+    "body": "Key spent the whole night helpless, watching a battle he could not touch. All he could do was hold on until morning and look for the flag. Hope is not pretending things are fine. It is keeping your eyes fixed on what you love through a long dark night, waiting for enough light to see.",
+    "askTogether": "When something scary is happening and you cannot fix it, what do you hold on to while you wait for morning?"
+  },
+  "sources": [
+    "Burning of Washington, Aug 24, 1814, including the officers eating the abandoned White House dinner (British eyewitness accounts, e.g., G. R. Gleig).",
+    "Dolley Madison's rescue of the Gilbert Stuart Washington portrait, frame broken, canvas removed, from her own letter of Aug 23-24, 1814.",
+    "Armistead's request for an oversized flag; Mary Pickersgill's 30x42-foot garrison flag sewn partly on a brewery floor (Smithsonian/NPS).",
+    "Bombardment of Fort McHenry, ~25 hours, Sept 13-14, 1814, roughly 1,500-1,800 projectiles fired; Key's detention aboard a truce ship and composition of the verses; 'Defence of Fort M'Henry' printed within days; national anthem by act of Congress, 1931.",
+    "Treaty of Ghent, Dec 1814, restored prewar boundaries ('settles almost nothing on paper')."
+  ]
+}

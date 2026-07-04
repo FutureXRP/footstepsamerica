@@ -1,0 +1,39 @@
+{
+  "id": "era01-story03",
+  "era": 1,
+  "slot": 3,
+  "title": "The Holy Experiment",
+  "subtitle": "Pennsylvania, 1682",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era01-story03.webp",
+  "paragraphs": [
+    "The King of England owes a dead admiral's son a fortune, and he pays the debt with a piece of America bigger than England itself.",
+    "The son's name is William Penn, and he is exactly the kind of person kings prefer to have far away. Penn is a Quaker. Quakers believe there is a light of God in every single person, which sounds harmless until you follow the idea to the end. They will not bow to lords. They will not take off their hats to important men. They will not swear oaths, and they will not fight in wars. In England, Penn has been thrown in prison more than once just for preaching.",
+    "So in 1681 the king signs over a vast stretch of American woods, names it Pennsylvania, and is probably glad to see the whole argument sail away.",
+    "Penn does not want a colony like the others. He calls his plan a holy experiment. The question he wants to test is simple and radical: can people of different religions live under one government in peace, with nobody forced to believe anything?",
+    "He designs a capital city on a grid, with wide streets named for trees, and calls it Philadelphia, which means the city of brotherly love. He writes laws promising that anyone who believes in God may worship freely, and that laws will be made with the consent of the people.",
+    "Then he does something that makes him famous across the ocean. The land the king gave him is the homeland of the Lenape people, and Penn refuses to simply take it. He writes to the Lenape promising fair dealing, learns to speak with them, and pays for the land he settles. A story is told of a great meeting under an elm tree at Shackamaxon, where Penn and the Lenape leaders exchange promises of friendship, a treaty never written down and, for as long as Penn lives, never broken.",
+    "Word spreads through Europe: there is a place where the laws do not care how you pray. And the ships begin to come. English Quakers, German farmers, Scots-Irish families, Catholics, Jews, all pouring into the fastest-growing colony in America. Within twenty years Philadelphia is on its way to becoming the largest city in the colonies.",
+    "Here is the honest part of the story. The experiment was only as good as the people keeping it. Years after Penn dies, his own sons cheat the Lenape in a crooked land deal called the Walking Purchase, hiring trained runners to race off the boundaries of a sale the Lenape never intended. The friendship Penn built is broken by his own family, and the Lenape are pushed from their homeland.",
+    "But the idea Penn planted does not die. It outgrows him, and it outgrows his sons.",
+    "A century later, when Americans gather in Penn's own city to invent a country, they will write his experiment into its foundations: no official religion, freedom of conscience for all. The city of brotherly love is where both the Declaration of Independence and the Constitution will be signed.",
+    "One stubborn man believed that people who disagree about heaven can still share a street, a market, and a law. Most of history said he was wrong. He built a city that said otherwise."
+  ],
+  "audio": {
+    "src": "audio/tier1/era01-story03.mp3",
+    "timestamps": "audio/tier1/era01-story03.json"
+  },
+  "connections": {
+    "trait": "Respect",
+    "body": "Penn held all the power in Pennsylvania, on paper. What made him different is how he treated people who could not force him to be fair: dissenters, immigrants, and the Lenape. Respect that only flows toward the powerful is not respect at all. It is strategy.",
+    "askTogether": "How do you treat someone who cannot make you be kind, like a younger kid or a new student? What does that show about you?"
+  },
+  "sources": [
+    "1681 charter granted to settle a debt of about 16,000 pounds owed to Admiral Sir William Penn; the colony named by the king for the admiral.",
+    "Penn's Quaker convictions and imprisonments (incl. the 1670 Penn-Mead trial) are well documented; 'holy experiment' is Penn's own phrase.",
+    "Religious liberty and consent provisions in the Frame of Government (1682); Philadelphia grid plan.",
+    "Shackamaxon elm treaty is tradition (no surviving text), flagged with 'a story is told'; Penn's fair purchases and letter to the Lenape (1681) are documented. Walking Purchase fraud, 1737, under Thomas Penn.",
+    "Philadelphia's growth to the largest colonial city by the mid-1700s."
+  ]
+}

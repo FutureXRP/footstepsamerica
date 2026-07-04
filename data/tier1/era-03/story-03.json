@@ -1,0 +1,40 @@
+{
+  "id": "era03-story03",
+  "era": 3,
+  "slot": 3,
+  "title": "The Deal of the Century",
+  "subtitle": "The Louisiana Purchase, 1803",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era03-story03.webp",
+  "paragraphs": [
+    "Two American diplomats walk into a meeting in Paris hoping to buy one city. They walk out having bought half a continent, and neither of them had permission to do it.",
+    "Here is how it happens. In 1803, everything west of the Mississippi River belongs, on European maps, to France, ruled by the most ambitious man alive: Napoleon Bonaparte. What President Thomas Jefferson wants is the port city of New Orleans, down at the river's mouth. Every barrel of flour and bale of furs from America's western farms floats down the Mississippi to New Orleans before it can sail anywhere. Whoever owns that city has a hand around the young country's throat.",
+    "So Jefferson sends James Monroe to Paris to join the American minister Robert Livingston, with instructions to offer up to ten million dollars for New Orleans and a strip of coast.",
+    "But Napoleon's plans have been collapsing. In the French colony of Saint-Domingue, now called Haiti, enslaved people have risen up and beaten every army sent against them, destroying the sugar empire Louisiana was supposed to feed. And a new war with Britain is coming, a war that will cost mountains of money. Louisiana has become a distant burden Napoleon cannot defend and cannot afford.",
+    "So when the Americans arrive to haggle over one city, the French minister asks a question that makes them blink: what would you give for all of it?",
+    "All of it. The whole territory. From the Mississippi River to the Rocky Mountains, from the Gulf of Mexico to Canada. Land that will one day hold all or part of fifteen states.",
+    "The Americans have no authority for anything like this. A letter to Washington and back takes months, and Napoleon changes his mind by the week. Monroe and Livingston look at the map, take a breath, and start negotiating.",
+    "The price they settle is fifteen million dollars. It works out to about three cents an acre. In one signature, the United States doubles in size. Livingston, signing, declares that from this day the United States takes its place among the powers of the first rank.",
+    "Back home, Jefferson is thrilled and queasy at the same time. He has always insisted the government may do only what the Constitution plainly allows, and the Constitution says nothing about buying an empire. He even drafts a constitutional amendment to make it legal, then quietly drops it. The deal is too good, and Napoleon too fickle, to wait. Congress approves, and the flag goes up over New Orleans in December 1803.",
+    "One thing must be said honestly. France sold something that was never really France's. The Louisiana Territory was home to scores of Native nations, the Osage, the Lakota, the Pawnee, the Comanche, and many more, who had never heard of the deal and were never asked. What Napoleon actually sold was a European claim, a piece of paper. Making that paper real would take a century of broken treaties and seized homelands, and that is part of this story's price tag too.",
+    "But in 1803, in Paris, the young republic bet fifteen million dollars on its own future, sight unseen. Jefferson is already planning to find out what he bought. He is choosing men for an expedition west, into the country no American map can describe.",
+    "That story is next."
+  ],
+  "audio": {
+    "src": "audio/tier1/era03-story03.mp3",
+    "timestamps": "audio/tier1/era03-story03.json"
+  },
+  "connections": {
+    "trait": "Boldness",
+    "body": "Monroe and Livingston had instructions for a small deal and an ocean between them and new orders. When a once-in-a-century chance appeared, they weighed the risk and acted. Boldness is not recklessness. It is being prepared enough, and brave enough, to say yes when the moment is bigger than your plan.",
+    "askTogether": "Have you ever gotten an opportunity that was bigger or scarier than what you expected? How do you decide when to say yes?"
+  },
+  "sources": [
+    "Monroe's instructions authorized up to about $10 million for New Orleans and the Floridas; Talleyrand/Barbe-Marbois offer of the whole territory, April 1803.",
+    "Haitian Revolution's defeat of French forces and the coming war with Britain as Napoleon's motives are standard scholarship.",
+    "$15 million for ~828,000 square miles, roughly 3 cents an acre; treaty dated April 30, 1803; transfer at New Orleans, Dec 20, 1803.",
+    "Livingston's 'first rank' remark is recorded in accounts of the signing. Jefferson's constitutional doubts and drafted amendment are documented in his papers.",
+    "Native nations of the territory neither consulted nor compensated; the purchase conveyed a European claim, per standard scholarship."
+  ]
+}

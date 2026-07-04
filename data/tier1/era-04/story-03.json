@@ -1,0 +1,38 @@
+{
+  "id": "era04-story03",
+  "era": 4,
+  "slot": 3,
+  "title": "Two Thousand Miles of Walking",
+  "subtitle": "The Oregon Trail, 1843–1860s",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era04-story03.webp",
+  "paragraphs": [
+    "The first thing to know about the families who rode the Oregon Trail is that most of them did not ride at all. They walked. Two thousand miles.",
+    "The wagon is not for people. It is a rolling closet, packed to the canvas with flour, bacon, tools, and seed, pulled by plodding oxen at about two miles an hour. Riding in it is like sitting in a butter churn. So everyone who has working legs uses them, fifteen miles or so a day, six months straight, from Missouri to the green valleys of Oregon.",
+    "Every spring in the 1840s and 1850s, the jumping-off towns along the Missouri River fill up with families, wagons, and bawling livestock, all waiting for one signal: grass. Leave before the prairie greens up and your oxen starve. Leave too late and mountain snow will catch you at the far end. The whole journey is a race run at a walk.",
+    "The trail quickly writes its own rulebook. Circle the wagons at night, not for defense so much as to make a corral for the animals. Cross the rivers where the ruts of earlier wagons show the way. On the treeless plains, burn what the buffalo leave behind, which the guides politely call chips, and the children sent to collect them call something worse.",
+    "Kids work the whole way. They herd cattle, haul water, gather fuel, mind babies, and walk, same as everyone. At Independence Rock, a great gray whale of granite in Wyoming, families climb up and carve their names next to thousands of others. Reach it by the Fourth of July and you are on schedule. Miss it and you start doing nervous arithmetic about snow.",
+    "Now for the dangers, and the truth about them. The movies would have you believe the great peril was attack by native warriors. Mostly, that is a myth. Along most of the trail, most of the time, native peoples were traders, guides, and toll collectors, selling salmon and vegetables, running ferries at the rivers, pointing out fords and shortcuts. Many an emigrant journal records being rescued by the very people the guidebooks taught them to fear.",
+    "The real killer on the trail is invisible. Cholera, a disease from filthy water, can strike a healthy man at breakfast and bury him by supper. Add river drownings, falls under wagon wheels, and stray gunshots from people who should never have been handed a rifle, and the arithmetic turns grim. Something like one traveler in ten never reaches the end. The trail becomes, mile for mile, one long thin cemetery, and the wagons roll past fresh graves nearly every day.",
+    "So why do they keep coming? Because at the end is land, deep-soiled and rain-watered, in parcels bigger than anything a farm family could dream of back east. Free for the claiming, the law says. Honesty says: it is not empty land. It is the homeland of the peoples of the Columbia and the Willamette, and every wagon season crowds them further, straining friendships that began with salmon and ferry rides. The trail is a road to a dream, and it runs straight through other people's home.",
+    "Between the 1840s and the 1860s, several hundred thousand people make some version of this walk, to Oregon, to California, to Utah. Then the railroad comes, and the six-month walk becomes a one-week ride, and the ruts begin to grass over.",
+    "But you can still find them today, wagon ruts worn hip-deep into solid rock in places, because that is what walking can do if enough ordinary families decide, one spring morning, to go."
+  ],
+  "audio": {
+    "src": "audio/tier1/era04-story03.mp3",
+    "timestamps": "audio/tier1/era04-story03.json"
+  },
+  "connections": {
+    "trait": "Patience",
+    "body": "No one sprinted to Oregon. The whole journey was fifteen unglamorous miles a day, every day, for half a year, and the families who made it were the ones who kept a steady pace and did the day's chores. Most big things in life are crossed the same way: not in leaps, but in faithful, boring, daily miles.",
+    "askTogether": "What is the biggest thing you have ever finished by doing a little of it every day? What are you walking toward right now, fifteen miles at a time?"
+  },
+  "sources": [
+    "About 2,000 miles from Missouri River towns to Oregon's Willamette Valley; ox teams ~2 mph, ~15 miles/day, 4-6 months; most emigrants walked (standard trail scholarship, e.g., Unruh, The Plains Across).",
+    "Timing on spring grass and autumn snow; Independence Rock by July 4 convention; children's chores and buffalo-chip fuel from emigrant diaries.",
+    "Native peoples as traders, ferrymen, and guides, with violence rare in most years and regions: Unruh's counts show emigrant deaths from conflict were a small fraction of total mortality.",
+    "Cholera as the leading killer, plus drownings and accidents; overall trail mortality commonly estimated near 1 in 10 ('something like'); roughly 300,000-400,000 overland emigrants on the Oregon/California/Mormon trails ('several hundred thousand').",
+    "Wagon ruts still visible, incl. rock-cut ruts at Guernsey, Wyoming."
+  ]
+}

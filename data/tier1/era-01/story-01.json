@@ -1,0 +1,40 @@
+{
+  "id": "era01-story01",
+  "era": 1,
+  "slot": 1,
+  "title": "The Island of Mud",
+  "subtitle": "Jamestown, 1607",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era01-story01.webp",
+  "paragraphs": [
+    "Three small ships sail up a wide brown river in the spring of 1607, and the men aboard are certain they are about to get rich.",
+    "There are 104 of them, all men and boys, sent by a company in London to find gold in Virginia. They pick a marshy island in the river, where their ships can tie up to the trees, and they name their little fort Jamestown, after the king.",
+    "It is one of the worst campsites in America. The water is salty and foul. Mosquitoes rise off the marsh in clouds. And the land is not empty. This is the country of the Powhatan people, thousands strong, with dozens of towns and fields under a powerful chief. Some of them trade with the strangers. Some of them fight.",
+    "The colonists are poorly chosen for this. Many are gentlemen who have never held a shovel, and they spend their days hunting for gold instead of planting corn. By the first winter, more than half of them are dead of sickness and hunger.",
+    "One man refuses to let the rest follow. Captain John Smith is a soldier, short and blunt and impossible to embarrass. He maps the rivers, bargains hard with the Powhatan for corn, and puts every man to work on the walls and the fields. He writes down his rule for the colony: he that will not work shall not eat.",
+    "It is not a polite rule. It keeps them alive.",
+    "Then, in 1609, a gunpowder accident burns Smith badly, and he sails home to England. The discipline sails with him.",
+    "The winter that follows is remembered as the starving time. Relations with the Powhatan have collapsed, and the fort is under siege. The colonists eat the horses, then the dogs, then the rats, then the leather of their own boots. Of about five hundred people in Jamestown that fall, only about sixty are alive in the spring.",
+    "The survivors give up. They bury the cannons, board their ship, and sail down the river for home. And there, coming up the river toward them, are supply ships from England, loaded with food, new settlers, and a new governor. Jamestown turns around.",
+    "The colony never does find gold. It finds something better. A settler named John Rolfe plants a new kind of tobacco, and it sells in London for a fortune. For the first time, Virginia has a reason to exist that is real.",
+    "Rolfe also marries Pocahontas, the daughter of the great Powhatan chief, and for a few fragile years there is peace between the two peoples. It will not last. The English keep coming, and they keep wanting more land that was never theirs.",
+    "Jamestown never becomes a city of gold. It becomes something stranger and more important. It is the first English town in America that refuses to die."
+  ],
+  "audio": {
+    "src": "audio/tier1/era01-story01.mp3",
+    "timestamps": "audio/tier1/era01-story01.json"
+  },
+  "connections": {
+    "trait": "Diligence",
+    "body": "Jamestown nearly died because too many people were waiting for easy riches instead of doing hard, boring, necessary work. Smith's rule sounds harsh, but underneath it is something true: a community survives when everyone carries part of the load.",
+    "askTogether": "What is one job you do, even when you do not feel like it, that other people are counting on?"
+  },
+  "sources": [
+    "104 settlers arrived May 1607 aboard Susan Constant, Godspeed, Discovery (Virginia Company records; Jamestown Rediscovery).",
+    "Brackish water, marsh siting, and first-winter mortality are standard scholarship. Powhatan paramount chiefdom of roughly 14,000-21,000 people ('thousands strong').",
+    "Smith's rule paraphrases 2 Thessalonians as he applied and recorded it in his own writings (Generall Historie); gunpowder injury and departure, Oct 1609.",
+    "Starving time winter 1609-10: about 60 survivors of roughly 400-500 ('about five hundred... about sixty'); abandonment and meeting De La Warr's relief fleet, June 1610.",
+    "Rolfe's tobacco cultivation from 1612; marriage to Pocahontas 1614 and the ensuing peace."
+  ]
+}

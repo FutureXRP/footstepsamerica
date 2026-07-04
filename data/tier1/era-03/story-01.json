@@ -1,0 +1,38 @@
+{
+  "id": "era03-story01",
+  "era": 3,
+  "slot": 1,
+  "title": "The Room with the Closed Windows",
+  "subtitle": "Philadelphia, summer 1787",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era03-story01.webp",
+  "paragraphs": [
+    "It is the hottest summer anyone in Philadelphia can remember, and the windows of the State House are nailed shut on purpose.",
+    "Inside, in wool coats, sit fifty-five of the most famous men in America, sweating and arguing in secret. Guards stand at the doors. Nothing said in this room is to leak out, because everything said in this room is dangerous.",
+    "Here is why they have come. The United States is four years old and already falling apart. The thirteen states behave like thirteen jealous little countries. They tax each other's goods, print their own worthless money, and ignore the feeble Congress. In Massachusetts, desperate farmers led by a war veteran named Daniel Shays have marched on courthouses with muskets. The men in this room fought a revolution for this country, and they are watching it dissolve.",
+    "So they have gathered to do something enormous. They are going to design a government from scratch, on paper, in one summer.",
+    "George Washington sits at the front, presiding, saying almost nothing, and his silence keeps the room serious. Near him sits tiny, tireless James Madison, who has done more homework than everyone else combined and writes down every word of every debate. Nearly everything we know about this summer, we know because Madison's hand never stopped moving.",
+    "The fights begin at once. Big states want votes counted by population. Small states want every state equal, and they threaten to walk out over it. For weeks the convention teeters on collapse, until a committee strikes the great bargain: a Congress with two chambers. In the House, the people are counted. In the Senate, every state gets two votes, no matter its size. Everyone swallows something they hate. The room moves on.",
+    "And then there is the argument they cannot finish. Some delegates want slavery ended, calling it a curse and a contradiction of everything the Revolution claimed. Others say plainly that their states will leave the union before giving it up. In the end, the framers compromise, and the compromise protects slavery. They are so uneasy about it that they never once write the word in the document. It is the argument they cannot finish, and their grandchildren will finish it in blood.",
+    "All summer the shape of the thing emerges. A president, but one who can be voted out and even thrown out. Courts that answer to law, not to power. Every power checked by another power, because, as Madison argues, men are not angels, and a government of humans needs guardrails against humans.",
+    "By September, a gorgeous handwritten copy is ready, opening with three words in giant script: We the People. Not we the states. Not we the king's subjects. The people.",
+    "Benjamin Franklin, eighty-one years old and too weak to stand for long, has his final speech read aloud for him. The Constitution is not perfect, he admits, and he is not sure it is even close. But he doubts any convention could do better, and so, he says, he consents to it, faults and all, and asks every doubter in the room to doubt a little of their own certainty too.",
+    "As the last delegates sign, Madison records Franklin gazing at the sun carved on the back of Washington's chair. Painters, Franklin says, find it hard to show the difference between a rising sun and a setting one. All summer he has looked at that carving and wondered which one this was. Now, at last, he says he knows. It is rising."
+  ],
+  "audio": {
+    "src": "audio/tier1/era03-story01.mp3",
+    "timestamps": "audio/tier1/era03-story01.json"
+  },
+  "connections": {
+    "trait": "Compromise",
+    "body": "Nobody left that room with everything they wanted, and the country they built is still arguing inside the guardrails they drew. Real compromise is not surrender. It is trading a piece of what you want so that everyone can keep the things that matter most. And some compromises, like the one over slavery, carry a terrible price that someone else ends up paying.",
+    "askTogether": "When did you give up part of what you wanted so your family or team could move forward? Was there ever a time when compromising would have been wrong?"
+  },
+  "sources": [
+    "Convention of May-Sept 1787: 55 delegates, secrecy rule, sealed windows and summer heat are standard accounts (Madison's Notes; Farrand's Records).",
+    "Shays's Rebellion 1786-87 as catalyst; failures of the Articles of Confederation.",
+    "Connecticut (Great) Compromise on representation; slavery compromises (three-fifths clause, slave-trade clause) with the word 'slavery' deliberately absent from the text.",
+    "Franklin's final speech read by James Wilson, and the rising-sun chair remark, both from Madison's Notes, Sept 17, 1787; 'We the People' preamble penned by Gouverneur Morris."
+  ]
+}

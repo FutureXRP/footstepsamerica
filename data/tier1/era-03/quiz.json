@@ -1,0 +1,157 @@
+{
+  "era": 3,
+  "title": "A New Nation",
+  "passPercent": 80,
+  "questions": [
+    {
+      "story": "era03-story01",
+      "q": "Why were the windows of the State House nailed shut during the summer of 1787?",
+      "options": ["To keep out mosquitoes", "To keep the debates secret", "To keep the room warm", "The building was being repaired"],
+      "answer": 1
+    },
+    {
+      "story": "era03-story01",
+      "q": "How do we know what was said inside the Constitutional Convention?",
+      "options": ["Newspapers reported it daily", "It was read aloud in church", "The king's spies wrote it down", "James Madison wrote down every debate"],
+      "answer": 3
+    },
+    {
+      "story": "era03-story01",
+      "q": "What was the great bargain between the big states and the small states?",
+      "options": ["A House counted by population and a Senate with two votes per state", "Big states paid lower taxes", "Small states got their own president", "Each state got one vote on everything"],
+      "answer": 0
+    },
+    {
+      "story": "era03-story01",
+      "q": "How did the framers handle the word 'slavery' in the Constitution?",
+      "options": ["They banned slavery immediately", "They wrote a whole chapter about it", "They never wrote the word in the document at all", "They left the pages blank"],
+      "answer": 2
+    },
+    {
+      "story": "era03-story01",
+      "q": "What did Franklin finally say about the sun carved on Washington's chair?",
+      "options": ["It should be painted over", "It was a setting sun", "It was a rising sun", "It was a full moon"],
+      "answer": 2
+    },
+    {
+      "story": "era03-story02",
+      "q": "What was about to happen at Newburgh in March 1783?",
+      "options": ["The unpaid army was being urged to march on Congress", "The British were attacking the camp", "Washington was being crowned king", "The soldiers were sailing to France"],
+      "answer": 0
+    },
+    {
+      "story": "era03-story02",
+      "q": "What did Washington do that made his hardened officers weep?",
+      "options": ["He resigned on the spot", "He read a letter from the king", "He fumbled for his spectacles and spoke of growing gray and almost blind in his country's service", "He tore up their petition"],
+      "answer": 2
+    },
+    {
+      "story": "era03-story02",
+      "q": "What did Washington do in December 1783, after the war was won?",
+      "options": ["He declared himself president", "He resigned his command and went home to his farm", "He sailed to England", "He took command of the navy"],
+      "answer": 1
+    },
+    {
+      "story": "era03-story02",
+      "q": "What title did Washington settle on as the first president?",
+      "options": ["His Highness", "His Excellency the Protector", "Mr. President", "General Forever"],
+      "answer": 2
+    },
+    {
+      "story": "era03-story02",
+      "q": "Why was the election of 1800 such a big moment for the world?",
+      "options": ["It was the first election ever held anywhere", "Power passed peacefully between bitter rivals because the voters said so", "The army chose the winner", "Both candidates became president together"],
+      "answer": 1
+    },
+    {
+      "story": "era03-story03",
+      "q": "What did President Jefferson originally want to buy from France?",
+      "options": ["Canada", "The Rocky Mountains", "The port city of New Orleans", "Florida"],
+      "answer": 2
+    },
+    {
+      "story": "era03-story03",
+      "q": "What happened in Haiti that helped push Napoleon to sell Louisiana?",
+      "options": ["A gold rush emptied the island", "Enslaved people rose up and defeated the armies sent against them", "A hurricane destroyed the ports", "Britain bought the island first"],
+      "answer": 1
+    },
+    {
+      "story": "era03-story03",
+      "q": "What was the price of the Louisiana Purchase?",
+      "options": ["Fifteen million dollars, about three cents an acre", "One hundred million dollars", "Fifty thousand dollars", "It was a free gift"],
+      "answer": 0
+    },
+    {
+      "story": "era03-story03",
+      "q": "What worried Jefferson about the deal?",
+      "options": ["The land was too swampy to farm", "The Constitution said nothing about buying territory", "Napoleon demanded American ships too", "He thought the price was too high for one city"],
+      "answer": 1
+    },
+    {
+      "story": "era03-story03",
+      "q": "Who was never asked about the sale of the Louisiana Territory?",
+      "options": ["The French senate", "Congress", "The British navy", "The Native nations who lived there"],
+      "answer": 3
+    },
+    {
+      "story": "era03-story04",
+      "q": "What was the mission of the Corps of Discovery?",
+      "options": ["To explore the new territory all the way to the Pacific", "To dig for gold in the mountains", "To build forts along the Mississippi", "To map the coast of Florida"],
+      "answer": 0
+    },
+    {
+      "story": "era03-story04",
+      "q": "What did Sacagawea do when a boat capsized in the river?",
+      "options": ["She swam to shore for help", "She calmly caught the instruments, medicines, and journals as they floated away", "She repaired the boat with birch bark", "She rescued the horses"],
+      "answer": 1
+    },
+    {
+      "story": "era03-story04",
+      "q": "What astonishing thing happened when Sacagawea translated for the Shoshone chief Cameahwait?",
+      "options": ["He refused to speak with her", "He demanded the expedition turn back", "The chief turned out to be her brother", "He had already met Jefferson"],
+      "answer": 2
+    },
+    {
+      "story": "era03-story04",
+      "q": "What happened when the corps voted on where to spend the winter by the Pacific?",
+      "options": ["Only the captains voted", "Everyone's voice was counted, including York's and Sacagawea's", "They flipped a coin", "Jefferson sent orders by ship"],
+      "answer": 1
+    },
+    {
+      "story": "era03-story04",
+      "q": "What did York ask for when the expedition returned, and what was the answer?",
+      "options": ["He asked for his freedom, and for years Clark said no", "He asked for land and received a farm", "He asked to lead the next expedition and did", "He asked for gold and got it"],
+      "answer": 0
+    },
+    {
+      "story": "era03-story05",
+      "q": "What did Dolley Madison refuse to leave behind in the White House?",
+      "options": ["The president's dinner", "Her jewelry", "The huge portrait of George Washington", "The Declaration of Independence"],
+      "answer": 2
+    },
+    {
+      "story": "era03-story05",
+      "q": "Why was the Fort McHenry flag sewn on the floor of a brewery?",
+      "options": ["It was hidden there from the British", "No ordinary room was big enough for a flag thirty feet tall", "The fort had no sewing rooms", "It was raining outside"],
+      "answer": 1
+    },
+    {
+      "story": "era03-story05",
+      "q": "How long did the British bombardment of Fort McHenry last?",
+      "options": ["About one hour", "Three days", "About twenty-five hours", "A week"],
+      "answer": 2
+    },
+    {
+      "story": "era03-story05",
+      "q": "Where was Francis Scott Key during the battle?",
+      "options": ["Inside the fort loading cannon", "On a truce ship, held until the attack ended", "In Washington with the president", "On horseback outside Baltimore"],
+      "answer": 1
+    },
+    {
+      "story": "era03-story05",
+      "q": "What question did Key strain to answer at dawn?",
+      "options": ["Whether the British fleet had sunk", "Whether the rain had stopped", "Whether his letter had been delivered", "Which flag was flying over the fort"],
+      "answer": 3
+    }
+  ]
+}

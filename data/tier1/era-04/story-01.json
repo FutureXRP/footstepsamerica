@@ -1,0 +1,38 @@
+{
+  "id": "era04-story01",
+  "era": 4,
+  "slot": 1,
+  "title": "The Big Ditch",
+  "subtitle": "The Erie Canal, 1817–1825",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era04-story01.webp",
+  "paragraphs": [
+    "The governor of New York wants to dig a ditch across the entire state, and important people everywhere agree it is the dumbest idea they have ever heard.",
+    "They have a nickname for it: Clinton's Folly, after Governor DeWitt Clinton, the man who will not shut up about it. His ditch would run 363 miles, from the Hudson River at Albany all the way to Lake Erie at Buffalo, through forests, swamps, and solid rock. President Jefferson himself, no enemy of big ideas, calls the plan a fine project for a century from now, and says doing it today borders on madness.",
+    "Here is why Clinton keeps pushing. In 1817, moving anything across America is brutally expensive. A wagonload of flour hauled overland from Buffalo to New York City costs about a hundred dollars a ton and takes weeks of mud and misery. The whole heart of the continent, all that grain and timber, is locked away behind the mountains. But a barge floats. Pull a boat along a calm ribbon of water and one mule can move what forty wagon teams cannot.",
+    "So New York decides to build the impossible ditch itself, with its own money, seven million dollars of it. Congress will not help.",
+    "One problem: America has almost no engineers. There is no school for this. The men in charge are mostly lawyers and judges who have never built anything bigger than a fence. They learn by doing, on a project the length of a small country. When they hit a problem, they invent a machine for it, a stump puller, a tree-felling rig, a Rube Goldberg crane for hoisting rock.",
+    "The muscle comes from thousands of diggers with shovels, wheelbarrows, and black powder, many of them immigrants fresh off the boats, a great many Irish. They dig through swamps where mosquitoes drop men with fever by the hundreds. They carve a channel four feet deep and forty feet wide, mile after mile after mile, by hand.",
+    "The cleverest part is the locks. Lake Erie sits about 570 feet higher than the Hudson River, and water will not flow uphill. So the engineers build 83 stone locks, water-stairs, each one a chamber where a boat glides in, gates seal behind it, and water pours in to lift the boat like a toy in a filling bathtub. Then the far gates open, and the boat sails out one step higher. Boats climb mountains, one bathtub at a time.",
+    "In October 1825, eight years after the first shovelful, the ditch is done. Cannons are lined up along the whole route, each within earshot of the next, and they fire one after another, a boom relayed from Buffalo to New York City in about eighty minutes, the fastest message ever sent in America to that day. Clinton rides the first boat east and pours a keg of Lake Erie water into the Atlantic Ocean. They call it the Wedding of the Waters.",
+    "What happens next changes the map of America. Freight costs collapse, from about a hundred dollars a ton to somewhere near ten, and later even less. Flour, lumber, and salt pour east. Settlers and store goods pour west. Villages along the route, Syracuse, Rochester, Buffalo, explode into cities. And down at the ocean end of the funnel, New York City swells into the greatest port in the Western Hemisphere.",
+    "The canal pays back its entire seven million dollar cost within about a decade, and then keeps earning. The century's smartest investment turns out to be the one the smart people laughed at.",
+    "It was not magic. It was a man who would not drop an idea, and thousands of workers no history book names, moving the earth a shovelful at a time."
+  ],
+  "audio": {
+    "src": "audio/tier1/era04-story01.mp3",
+    "timestamps": "audio/tier1/era04-story01.json"
+  },
+  "connections": {
+    "trait": "Vision",
+    "body": "Clinton saw a river where everyone else saw four hundred miles of mud, and he kept seeing it through years of mockery. Vision is not just having a big idea. It is holding onto it, checking it against the facts, and doing the unglamorous work of making it real.",
+    "askTogether": "Have you ever believed something could work when the people around you doubted it? How do you tell the difference between a vision worth keeping and a bad idea worth dropping?"
+  },
+  "sources": [
+    "363 miles, Albany to Buffalo; built 1817-1825 for about $7 million in state funds after federal refusal; Jefferson's 'little short of madness' remark to Joshua Forman, 1809 (reported; paraphrased here).",
+    "'Clinton's Folly' epithet; freight cost roughly $100/ton overland falling to about $10 and below by canal; 4-foot depth, 40-foot width; 83 locks over a rise of about 565-570 feet.",
+    "Largely self-taught engineers (Wright, Geddes); invented stump pullers and equipment; heavy Irish immigrant labor and swamp fevers at Montezuma are standard accounts.",
+    "Oct 26, 1825 opening: relayed cannon 'Grand Salute' Buffalo to NYC in about 80-90 minutes; Clinton's 'Wedding of the Waters' at New York Harbor, Nov 4, 1825; tolls repaid construction costs within about a decade."
+  ]
+}

@@ -7,7 +7,7 @@
       "years": "1607–1763",
       "blurb": "Jamestown starves, Plymouth prays, and thirteen very different colonies take root on land that was never empty.",
       "storyCount": 5,
-      "available": false
+      "available": true
     },
     {
       "era": 2,
@@ -25,7 +25,7 @@
       "years": "1783–1815",
       "blurb": "The war is won. Now comes the harder part: inventing a country out of paper, promises, and argument.",
       "storyCount": 5,
-      "available": false
+      "available": true
     },
     {
       "era": 4,
@@ -34,7 +34,7 @@
       "years": "1815–1861",
       "blurb": "Wagons roll toward the sunset. Some people are chasing a dream. Others are being forced from their homes.",
       "storyCount": 5,
-      "available": false
+      "available": true
     },
     {
       "era": 5,
