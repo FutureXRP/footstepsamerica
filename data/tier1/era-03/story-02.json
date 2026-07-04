@@ -1,0 +1,39 @@
+{
+  "id": "era03-story02",
+  "era": 3,
+  "slot": 2,
+  "title": "The Man Who Went Home",
+  "subtitle": "1783–1801",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era03-story02.webp",
+  "paragraphs": [
+    "The most dangerous moment of the American Revolution comes after the fighting stops, and almost nobody notices it happening.",
+    "It is March 1783. The war is won but not yet signed away, and the American army is camped at Newburgh, New York, angry. Congress owes the soldiers years of back pay and shows no sign of ever sending it. Anonymous letters snake through camp, urging the officers to march on Congress and take what they are owed. An army with guns, a government with no money. Every republic in history has died exactly this way.",
+    "George Washington walks into the meeting of his furious officers uninvited.",
+    "He gives a speech asking for patience, and it mostly falls flat. Then he pulls a letter from his pocket, stares at it, and fumbles for something none of them have ever seen him wear: a pair of spectacles. Gentlemen, he tells them, you will permit me to put on my spectacles, for I have not only grown gray in the service of my country, but almost blind.",
+    "Hardened officers begin to weep. The mutiny dies right there, killed not by force but by the sight of what this man has already given. The army goes home peacefully. The republic gets to be born.",
+    "That December, Washington does something even stranger. He rides to where Congress is meeting, and gives his power back. He resigns as commander in chief and heads home to his farm at Mount Vernon, a private citizen. Across the ocean, King George III hears that Washington may really do this, and says, so the story is told, that if he does, he will be the greatest man in the world. Kings do not hand back power. Conquerors do not go home. This one does.",
+    "Of course, the country is not finished with him. When the new Constitution creates a presidency, every single elector votes for the same man. Washington becomes the first president of the United States, which means every step he takes becomes a rule for everyone who follows.",
+    "He feels the weight of it constantly. Some want to address him like royalty, His Highness, His Excellency. He settles on plain Mr. President. He serves four years, then four more.",
+    "And then, in 1797, with much of the country begging him to be president for life, George Washington goes home again. He hands the office to John Adams and rides back to his fields. The powerful men of Europe are baffled all over again. Voluntarily giving up power once might be a fluke. Twice is a habit. Twice is an example.",
+    "The example gets its great test just four years later. President Adams runs for reelection against his own vice president and bitter rival, Thomas Jefferson, in one of the ugliest elections America has ever held. Adams loses. He is hurt and angry. And then he simply packs his things and goes home to Massachusetts, and Jefferson is sworn in without a single shot fired.",
+    "Think of how rare that is in the history of the world. The crown has changed heads by war, by poison, by prison, for thousands of years. Here, power passes from one furious rival to another because the voters said so, and everyone, through gritted teeth, obeys.",
+    "The revolution was not really the war. The revolution is a man with an army handing power back, twice, until letting go of power became the most American thing a leader can do."
+  ],
+  "audio": {
+    "src": "audio/tier1/era03-story02.mp3",
+    "timestamps": "audio/tier1/era03-story02.json"
+  },
+  "connections": {
+    "trait": "Self-Control",
+    "body": "Washington's greatest victories were over his own ambition. He could have been a king, and he chose to be a citizen. Strength is not only what you can take. It is what you can hold in your hands and still give back.",
+    "askTogether": "When is giving something up a sign of strength instead of weakness? Have you ever let go of something you really wanted to keep?"
+  },
+  "sources": [
+    "Newburgh Conspiracy, March 1783; Washington's spectacles remark is recorded in contemporary officer accounts (e.g., Samuel Shaw's journal) and presented near-verbatim.",
+    "Resignation of commission at Annapolis, Dec 23, 1783. George III's 'greatest man in the world' remark comes secondhand via the painter Benjamin West, flagged with 'so the story is told.'",
+    "Unanimous election in 1789 (69 electoral votes); title debate settled as 'Mr. President'; retirement after two terms, 1797.",
+    "Election of 1800 and the peaceful transfer from Adams to Jefferson, March 4, 1801."
+  ]
+}
