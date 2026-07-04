@@ -1,0 +1,157 @@
+{
+  "era": 4,
+  "title": "Westward",
+  "passPercent": 80,
+  "questions": [
+    {
+      "story": "era04-story01",
+      "q": "What did people call the Erie Canal project while it was being planned?",
+      "options": ["The Golden Road", "Clinton's Folly", "The Wedding of the Waters", "The Big Easy"],
+      "answer": 1
+    },
+    {
+      "story": "era04-story01",
+      "q": "How did canal boats climb the 570-foot rise between the Hudson River and Lake Erie?",
+      "options": ["Mules dragged them up ramps", "They were carried by wagon between rivers", "Through 83 locks that lifted boats like filling bathtubs", "They used sails and strong winds"],
+      "answer": 2
+    },
+    {
+      "story": "era04-story01",
+      "q": "Who did much of the digging on the Erie Canal?",
+      "options": ["Thousands of workers with shovels, many of them Irish immigrants", "Steam-powered machines", "The state militia", "Prisoners from New York City"],
+      "answer": 0
+    },
+    {
+      "story": "era04-story01",
+      "q": "How was the news of the canal's opening sent from Buffalo to New York City in about eighty minutes?",
+      "options": ["By telegraph", "By carrier pigeon", "By a relay of riders", "By cannons firing one after another along the route"],
+      "answer": 3
+    },
+    {
+      "story": "era04-story01",
+      "q": "What happened to the cost of moving freight after the canal opened?",
+      "options": ["It collapsed from about $100 a ton to around $10 or less", "It doubled", "It stayed about the same", "Freight became free"],
+      "answer": 0
+    },
+    {
+      "story": "era04-story02",
+      "q": "What did Sequoyah invent for the Cherokee people?",
+      "options": ["A printing press", "A writing system of about eighty-five characters", "A new kind of plow", "A telegraph code"],
+      "answer": 1
+    },
+    {
+      "story": "era04-story02",
+      "q": "What discovery in 1829 sped up the push to remove the Cherokee from their land?",
+      "options": ["Oil", "Silver", "Gold on Cherokee land in Georgia", "A new river route"],
+      "answer": 2
+    },
+    {
+      "story": "era04-story02",
+      "q": "What happened in the Supreme Court case Worcester versus Georgia?",
+      "options": ["The Cherokee lost and appealed", "The Court refused to hear the case", "The Court ordered the Cherokee to move west", "The Cherokee won, but Georgia and the president ignored the ruling"],
+      "answer": 3
+    },
+    {
+      "story": "era04-story02",
+      "q": "About how many Cherokee people died on the Trail of Tears?",
+      "options": ["About forty", "About four hundred", "About four thousand, roughly one in four", "Almost none"],
+      "answer": 2
+    },
+    {
+      "story": "era04-story02",
+      "q": "What did the Cherokee do after reaching the west?",
+      "options": ["They rebuilt with a new constitution, a new capital at Tahlequah, schools, and a newspaper", "They scattered and disappeared", "They returned to Georgia within a year", "They joined the Texas republic"],
+      "answer": 0
+    },
+    {
+      "story": "era04-story03",
+      "q": "How did most people travel the two thousand miles of the Oregon Trail?",
+      "options": ["Riding inside the wagons", "On horseback", "Walking beside the wagons", "By riverboat"],
+      "answer": 2
+    },
+    {
+      "story": "era04-story03",
+      "q": "Why did wagon trains wait for the grass to green up before leaving?",
+      "options": ["The rivers were too high before then", "Their oxen needed grass to eat along the way", "The trail was closed in spring", "They were waiting for army escorts"],
+      "answer": 1
+    },
+    {
+      "story": "era04-story03",
+      "q": "What was the deadliest danger on the trail?",
+      "options": ["Attacks by native warriors", "Blizzards", "Wolf packs", "Disease, especially cholera from bad water"],
+      "answer": 3
+    },
+    {
+      "story": "era04-story03",
+      "q": "How did native peoples along the trail most often interact with the wagon trains?",
+      "options": ["As traders, guides, and ferry operators", "They attacked nearly every wagon train", "They never came near the trail", "They charged nothing and gave everything away"],
+      "answer": 0
+    },
+    {
+      "story": "era04-story03",
+      "q": "What did families carve at Independence Rock?",
+      "options": ["Maps for later travelers", "Prayers for rain", "Their names", "Arrows pointing west"],
+      "answer": 2
+    },
+    {
+      "story": "era04-story04",
+      "q": "What document did Elizabeth Cady Stanton read at Seneca Falls?",
+      "options": ["The Bill of Rights", "The Declaration of Sentiments", "The Constitution of New York", "The Emancipation Proclamation"],
+      "answer": 1
+    },
+    {
+      "story": "era04-story04",
+      "q": "Which famous sentence did the declaration change by two words?",
+      "options": ["Give me liberty or give me death", "We the People of the United States", "Four score and seven years ago", "All men and women are created equal"],
+      "answer": 3
+    },
+    {
+      "story": "era04-story04",
+      "q": "Which demand at the convention was almost voted down?",
+      "options": ["The right to vote", "The right to own property", "The right to attend college", "The right to keep wages"],
+      "answer": 0
+    },
+    {
+      "story": "era04-story04",
+      "q": "Who stood up and helped save the voting resolution?",
+      "options": ["Abraham Lincoln", "Frederick Douglass", "DeWitt Clinton", "John Ross"],
+      "answer": 1
+    },
+    {
+      "story": "era04-story04",
+      "q": "When did the Nineteenth Amendment guarantee American women the vote?",
+      "options": ["1850, two years later", "1876, at the centennial", "1920, seventy-two years later", "1948, one hundred years later"],
+      "answer": 2
+    },
+    {
+      "story": "era04-story05",
+      "q": "Where did James Marshall first spot gold?",
+      "options": ["In a mine shaft", "In the water ditch of a half-built sawmill", "On a beach near San Francisco", "In a riverboat's cargo"],
+      "answer": 1
+    },
+    {
+      "story": "era04-story05",
+      "q": "What did Sam Brannan do before announcing the gold strike in San Francisco?",
+      "options": ["He bought up nearly every pick, pan, and shovel around", "He claimed the sawmill for himself", "He warned President Polk", "He sailed for China"],
+      "answer": 0
+    },
+    {
+      "story": "era04-story05",
+      "q": "What happened to ships in San Francisco Bay in 1848 and 1849?",
+      "options": ["They were sunk by storms", "They were turned into gold mines", "Crews abandoned them to hunt gold, leaving a forest of masts", "The navy seized them"],
+      "answer": 2
+    },
+    {
+      "story": "era04-story05",
+      "q": "Who most reliably got rich during the gold rush?",
+      "options": ["The miners with the biggest pans", "People selling supplies, food, and clothing to miners", "Ship captains", "John Sutter and James Marshall"],
+      "answer": 1
+    },
+    {
+      "story": "era04-story05",
+      "q": "What was the gold rush for the native peoples of California?",
+      "options": ["A chance to sell supplies at high prices", "A time of new treaties that protected their land", "It barely affected them", "A catastrophe of disease, starvation, and violence"],
+      "answer": 3
+    }
+  ]
+}

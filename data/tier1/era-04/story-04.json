@@ -1,0 +1,41 @@
+{
+  "id": "era04-story04",
+  "era": 4,
+  "slot": 4,
+  "title": "The Convention at the Chapel",
+  "subtitle": "Seneca Falls, 1848",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era04-story04.webp",
+  "paragraphs": [
+    "The notice in the newspaper is small, just a few lines, announcing a meeting in a little chapel in Seneca Falls, New York, to discuss the condition and rights of woman. It gives five days' notice. Its organizers are five women who planned it over tea.",
+    "On the morning of July 19, 1848, the roads into town fill with buggies and farm wagons, and about three hundred people crowd toward the chapel doors.",
+    "Understand what the world looks like in 1848 if you are an American woman. When you marry, in the eyes of the law, you nearly stop existing. Your property becomes your husband's. Your wages, if you work, are his. You cannot vote, cannot sit on a jury, and in most cases cannot get into college. If a marriage breaks, the children go to the father, almost no matter what. It is not that the law is unkind to women. It is that the law barely admits they are there.",
+    "Elizabeth Cady Stanton, a judge's daughter who grew up reading her father's law books with rising fury, stands up in the chapel and reads the document she has drafted. She calls it the Declaration of Sentiments, and she has borrowed the most famous sentence in America to build it: We hold these truths to be self-evident, that all men and women are created equal.",
+    "Two words, and women, added to the country's birth certificate. The audience knows exactly what they are hearing.",
+    "The declaration lists the grievances, not against a king this time, but against a system built by fathers, husbands, and lawmakers. Then come the resolutions, demands for change, and one by one they pass easily. Equal treatment under law. Rights to property and wages. Access to education and professions.",
+    "Then comes resolution nine, the one that nearly sinks the whole ship: the demand that women secure for themselves the sacred right to vote.",
+    "Even in this room, that is almost too much. Voting is the deep water. Many delegates fear the demand is so outrageous it will make the whole movement a laughingstock. The argument sways back and forth, and the resolution is in real danger, until a man rises from the audience and asks to speak.",
+    "His name is Frederick Douglass. He escaped from slavery ten years ago, and he runs his own newspaper now, up the road in Rochester. He knows precisely what it is to be denied a voice, and he tells the room that he cannot claim the vote for himself while helping deny it to women. Power concedes nothing without a demand, he will write later. The room turns. Resolution nine passes.",
+    "One hundred people sign the declaration, sixty-eight women and thirty-two men. Then they go home, and the mockery begins. Newspapers across the country hoot at the hens who wish to crow. Some signers, stung by the ridicule, quietly withdraw their names. Stanton discovers, to her delight, that even the sneering papers reprint the declaration to make fun of it, which means everyone is reading it.",
+    "The road from that chapel is long almost beyond bearing. Not one of the leading women at Seneca Falls will live to cast a legal ballot for president. The Nineteenth Amendment finally guarantees women the vote in 1920, seventy-two years after resolution nine. One signer makes it: Charlotte Woodward, who came to the convention as a nineteen-year-old glove maker hoping someday to keep her own wages, lives to see American women win the vote as an old woman in her nineties.",
+    "Every great American argument starts the same way, with somebody standing up in a small room and reading the founders' own words back to the country, asking it to mean them. In 1848, in a chapel in a mill town, three hundred people started one of the biggest. The country is still finishing it."
+  ],
+  "audio": {
+    "src": "audio/tier1/era04-story04.mp3",
+    "timestamps": "audio/tier1/era04-story04.json"
+  },
+  "connections": {
+    "trait": "Fairness",
+    "body": "The women of Seneca Falls did not invent new ideals. They took the ones America already claimed, held them up next to the law, and pointed at the gap. Fairness begins with the courage to say out loud that a rule everyone accepts is not right, especially when saying so gets you laughed at.",
+    "askTogether": "Have you ever noticed a rule that treated someone unfairly? What makes it hard to speak up, and what would help you do it anyway?"
+  },
+  "sources": [
+    "Convention announced in the Seneca County Courier, July 14, 1848, for July 19-20 at the Wesleyan Chapel; about 300 attended; organized by Stanton, Lucretia Mott, Martha Wright, Mary Ann M'Clintock, Jane Hunt.",
+    "Legal status of married women under coverture (property, wages, custody, jury service, suffrage, college access) per standard scholarship.",
+    "Declaration of Sentiments text modeled on the Declaration of Independence; all resolutions passed, with only the suffrage resolution seriously contested.",
+    "Douglass's decisive support for the suffrage resolution: convention accounts and his North Star editorial (July 28, 1848). 'Power concedes nothing without a demand' is from his 1857 West India Emancipation speech, framed here as written later.",
+    "100 signers (68 women, 32 men); press ridicule and some withdrawals; Stanton's observation that mockery spread the text (her letters/memoirs).",
+    "Charlotte Woodward (Pierce), 19 in 1848, the only signer alive when the 19th Amendment was ratified in 1920; accounts differ on whether she was able to cast a ballot, so the text says 'lives to see.'"
+  ]
+}

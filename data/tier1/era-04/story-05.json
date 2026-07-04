@@ -1,0 +1,41 @@
+{
+  "id": "era04-story05",
+  "era": 4,
+  "slot": 5,
+  "title": "Gold in the Ditch",
+  "subtitle": "California, 1848–1850",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era04-story05.webp",
+  "paragraphs": [
+    "On a cold January morning in 1848, a carpenter named James Marshall is inspecting the water ditch of a half-built sawmill in California when something on the bottom catches the light.",
+    "He fishes it out. A soft yellow pebble, about half the size of a pea. He hammers it flat, and it bends instead of shattering. His heart starts to pound. He gathers a few more flakes, rides to his boss, John Sutter, and the two men test the metal every way the encyclopedia suggests. Acid. Scales. It is gold.",
+    "Sutter's reaction is not joy. It is dread. He is building an empire of wheat fields and cattle, and he knows exactly what a gold rush will do to it. The two men agree to keep the discovery quiet.",
+    "It stays quiet for about as long as you would expect.",
+    "The secret finally explodes when a storekeeper named Sam Brannan gets hold of a bottle of gold dust and marches through the streets of San Francisco holding it high, shouting that there is gold in the American River. Here is the detail that tells you everything about Sam Brannan: before he started shouting, he quietly bought up nearly every pick, pan, and shovel in the region. He will sell them at fantastic markups and become perhaps the richest man in California without ever digging a hole.",
+    "San Francisco empties overnight. Sailors abandon their ships in the bay, whole crews at once, until the harbor becomes a forest of deserted masts. Soldiers desert. Shops close because the shopkeepers are gone. And that is just the neighborhood crowd.",
+    "When President Polk confirms the discovery to Congress in December 1848, the whole world lets go of whatever it was doing. Through 1849, roughly ninety thousand people pour into California, by wagon across the plains, by ship around the tip of South America, by mule through the jungles of Panama. They call themselves forty-niners. Farmers from Missouri, clerks from Boston, miners from Chile and Mexico, veterans from France, and thousands of men from southern China, who call California by a hopeful name: Gold Mountain. Almost overnight, California becomes one of the most varied gatherings of humanity on earth.",
+    "A few early birds really do scoop fortunes out of the streams with a pan and a strong back. But for most, the mines are cold water, brutal work, wild prices, and thin luck. An egg can cost a dollar, a decent shovel a week's wages back home. The people who reliably strike it rich are the ones selling things: eggs, boots, lumber, laundry, and sturdy work clothes. A young immigrant named Levi Strauss arrives with dry goods and builds a name you are possibly wearing right now.",
+    "Now the honest chapter. For the native peoples of California, the gold rush is not an adventure story. It is a catastrophe. Miners overrun their lands and poison their rivers, and in the years that follow, disease, starvation, and organized violence kill the great majority of them, in one of the darkest passages in American history. Their descendants are still here, still telling their side of it, and no true account of the golden state leaves this out.",
+    "California itself is transformed at unheard-of speed. San Francisco balloons from a village of about a thousand people to a rowdy city of twenty-five thousand in barely two years. In 1850, just two years after Marshall's find, California skips the usual waiting line and enters the Union as the thirty-first state.",
+    "And the two men who started it all? John Sutter's empire is trampled by the stampede, exactly as he feared, and he dies petitioning Congress for compensation. James Marshall, the man who picked the first nugget out of the ditch, never strikes it rich, and ends his days in a small cabin, poor.",
+    "The gold rush's real lesson was hiding in plain sight from day one. The gold ran out. The dream that something better might be waiting out west, that outlasted the gold, and it built the state."
+  ],
+  "audio": {
+    "src": "audio/tier1/era04-story05.mp3",
+    "timestamps": "audio/tier1/era04-story05.json"
+  },
+  "connections": {
+    "trait": "Wisdom",
+    "body": "Thousands chased the quick fortune, and most went home with sore backs and empty pockets. The ones who prospered mostly did steady, unglamorous work that other people needed. Wisdom is often the ability to tell a genuine opportunity from a shiny one.",
+    "askTogether": "What is the difference between getting something quickly and building something that lasts? Which one is harder, and which one is usually worth more?"
+  },
+  "sources": [
+    "Marshall's discovery at Sutter's sawmill on the American River, Jan 24, 1848; malleability and acid tests with Sutter; their attempt at secrecy (Marshall's and Sutter's own accounts).",
+    "Brannan's San Francisco announcement and his prior cornering of mining supplies; his store receipts made him among California's richest men (standard accounts).",
+    "Ship desertions in San Francisco Bay; Polk's message to Congress, Dec 5, 1848; about 90,000 arrivals in 1849 and 'forty-niners'; Chinese name for California, Gam Saan, 'Gold Mountain.'",
+    "Mining-camp price inflation (dollar eggs); merchants as the reliable winners; Levi Strauss arrived 1853, dry-goods business preceding the riveted jeans patent (1873).",
+    "Catastrophe for California native peoples: population collapse from roughly 150,000 to about 30,000 within decades via disease, starvation, and state-sanctioned violence (standard scholarship, e.g., Madley).",
+    "San Francisco ~1,000 (1848) to ~25,000 (1850); statehood Sept 9, 1850; Sutter's ruin and Marshall's poverty."
+  ]
+}
