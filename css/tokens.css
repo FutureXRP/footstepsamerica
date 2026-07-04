@@ -56,6 +56,8 @@ nav{
   color:var(--brass);text-align:center;line-height:1.2;
 }
 .wordmark span{font-family:'Libre Caslon Display',serif;font-size:20px;}
+.logo-img{height:50px;width:auto;mix-blend-mode:multiply;}
+.logo-slot[hidden],.logo-img[hidden]{display:none;}
 .navlinks{display:flex;gap:28px;align-items:center;font-family:'Archivo',sans-serif;font-size:13px;font-weight:600;letter-spacing:0.06em;}
 .navlinks a{text-decoration:none;color:var(--ink-soft);}
 .navlinks a:hover{color:var(--oxblood);}

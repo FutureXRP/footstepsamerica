@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Footsteps Through America — True stories. Told straight.</title>
+<meta name="description" content="True stories from 400 years of America. Vivid, honest, five minutes at a time. American history for families, ages 5-12.">
+<link rel="icon" type="image/png" href="assets/brand/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Footsteps Through America — True stories. Told straight.">
+<meta property="og:description" content="True stories from 400 years of America. Vivid, honest, five minutes at a time. American history for families, ages 5-12.">
+<meta property="og:image" content="https://footstepsamerica.vercel.app/assets/brand/banner.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Archivo:wght@500;600;700&display=swap" rel="stylesheet">
@@ -60,6 +67,8 @@
     color:var(--brass);text-align:center;line-height:1.2;
   }
   .wordmark span{font-family:'Libre Caslon Display',serif;font-size:20px;}
+  .logo-img{height:50px;width:auto;mix-blend-mode:multiply;}
+  .logo-slot[hidden],.logo-img[hidden]{display:none;}
   .navlinks{display:flex;gap:28px;align-items:center;font-family:'Archivo',sans-serif;font-size:13px;font-weight:600;letter-spacing:0.06em;}
   .navlinks a{text-decoration:none;color:var(--ink-soft);}
   .navlinks a:hover{color:var(--oxblood);}
@@ -224,7 +233,8 @@
 <div class="wrap">
   <nav>
     <a class="wordmark" href="index.html">
-      <span class="logo-slot">YOUR<br>LOGO</span>
+      <img class="logo-img" src="assets/brand/logo.png" alt="" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+      <span class="logo-slot" hidden>YOUR<br>LOGO</span>
       <span>Footsteps Through America</span>
     </a>
     <div class="navlinks">
