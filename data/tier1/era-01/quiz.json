@@ -1,0 +1,157 @@
+{
+  "era": 1,
+  "title": "Colonies",
+  "passPercent": 80,
+  "questions": [
+    {
+      "story": "era01-story01",
+      "q": "Why was the island the Jamestown colonists chose such a bad campsite?",
+      "options": ["It was too far from the river", "The water was foul and mosquitoes swarmed the marsh", "It was too cold to grow anything", "It was too crowded with other colonists"],
+      "answer": 1
+    },
+    {
+      "story": "era01-story01",
+      "q": "What was Captain John Smith's famous rule for the colony?",
+      "options": ["He that will not pray shall not stay", "He that will not fight shall not be fed", "He that will not work shall not eat", "He that finds gold keeps gold"],
+      "answer": 2
+    },
+    {
+      "story": "era01-story01",
+      "q": "What happened during the winter remembered as the starving time?",
+      "options": ["Of about five hundred colonists, only about sixty survived", "The colonists found gold at last", "The Powhatan brought food all winter", "The colony moved to Plymouth"],
+      "answer": 0
+    },
+    {
+      "story": "era01-story01",
+      "q": "Whose country was Jamestown built in?",
+      "options": ["No one's, the land was empty", "The Powhatan people's", "The Wampanoag people's", "The Lenape people's"],
+      "answer": 1
+    },
+    {
+      "story": "era01-story01",
+      "q": "What crop finally gave Virginia a real reason to exist?",
+      "options": ["Corn", "Cotton", "Sugar", "Tobacco"],
+      "answer": 3
+    },
+    {
+      "story": "era01-story02",
+      "q": "What did the Mayflower passengers sign before going ashore?",
+      "options": ["A treaty with the king", "A compact promising to make fair laws together", "A map of Cape Cod", "A letter of apology to Virginia"],
+      "answer": 1
+    },
+    {
+      "story": "era01-story02",
+      "q": "How bad was the Pilgrims' first winter?",
+      "options": ["Nobody got sick", "About half of them died", "They all moved back to England", "Only the sailors got sick"],
+      "answer": 1
+    },
+    {
+      "story": "era01-story02",
+      "q": "What had happened to Squanto's home village of Patuxet?",
+      "options": ["It had been wiped out by a sickness brought on European ships", "It had moved west", "It had been flooded", "The English had built a fort on it while his people watched"],
+      "answer": 0
+    },
+    {
+      "story": "era01-story02",
+      "q": "How did Squanto help the Plymouth colonists?",
+      "options": ["He taught them to plant corn with fish for fertilizer and translated for them", "He built their houses for them", "He sailed their ship back to England", "He gave them gold"],
+      "answer": 0
+    },
+    {
+      "story": "era01-story02",
+      "q": "Who came to the harvest feast in the fall of 1621?",
+      "options": ["The King of England", "Massasoit and about ninety of his men, bringing five deer", "John Smith and the Jamestown colonists", "Nobody, the colonists ate alone"],
+      "answer": 1
+    },
+    {
+      "story": "era01-story03",
+      "q": "How did William Penn get the land that became Pennsylvania?",
+      "options": ["He won it in a war", "The king paid a debt owed to Penn's father with American land", "He bought it from Virginia", "He discovered it on a voyage"],
+      "answer": 1
+    },
+    {
+      "story": "era01-story03",
+      "q": "What question did Penn's holy experiment set out to test?",
+      "options": ["Whether gold could be found in the woods", "Whether a colony could survive without farms", "Whether people of different religions could live in peace under one government", "Whether kings could rule from across an ocean"],
+      "answer": 2
+    },
+    {
+      "story": "era01-story03",
+      "q": "How did Penn treat the Lenape people whose homeland he settled?",
+      "options": ["He paid for land and made promises of friendship he kept while he lived", "He ordered them to leave at once", "He refused to speak with them", "He built a wall between the peoples"],
+      "answer": 0
+    },
+    {
+      "story": "era01-story03",
+      "q": "What was the Walking Purchase?",
+      "options": ["A festival held in Philadelphia", "A fair trade of furs for tools", "Penn's daily walk through his city", "A crooked land deal by which Penn's sons cheated the Lenape"],
+      "answer": 3
+    },
+    {
+      "story": "era01-story03",
+      "q": "What does the name Philadelphia mean?",
+      "options": ["The city of brotherly love", "The city of the king", "The city of trees", "The holy city"],
+      "answer": 0
+    },
+    {
+      "story": "era01-story04",
+      "q": "What was Benjamin Franklin carrying when he first walked up Market Street in Philadelphia?",
+      "options": ["A printing press", "Three great puffy bread rolls", "A kite and a key", "A chest of money"],
+      "answer": 1
+    },
+    {
+      "story": "era01-story04",
+      "q": "Why did seventeen-year-old Franklin leave Boston?",
+      "options": ["He was sent to college", "His family moved to Virginia", "He ran away from his apprenticeship in his brother's print shop", "He was invited by William Penn"],
+      "answer": 2
+    },
+    {
+      "story": "era01-story04",
+      "q": "What did Franklin's kite experiment show?",
+      "options": ["That storms always move east", "That lightning is electricity", "That kites can fly in rain", "That keys attract clouds"],
+      "answer": 1
+    },
+    {
+      "story": "era01-story04",
+      "q": "What did Franklin do with his inventions like the lightning rod and his stove?",
+      "options": ["He refused to patent them and gave them freely", "He sold them only to kings", "He kept them secret", "He traded them for land"],
+      "answer": 0
+    },
+    {
+      "story": "era01-story04",
+      "q": "Which of these did Franklin help create in Philadelphia?",
+      "options": ["A royal palace", "A gold mine", "A lending library and a volunteer fire company", "A navy"],
+      "answer": 2
+    },
+    {
+      "story": "era01-story05",
+      "q": "What message did young George Washington carry to the French in 1753?",
+      "options": ["An invitation to a peace feast", "A demand that they leave the Ohio Country", "An offer to buy Canada", "A declaration of independence"],
+      "answer": 1
+    },
+    {
+      "story": "era01-story05",
+      "q": "What happened at Fort Necessity on July 4, 1754?",
+      "options": ["Washington won his first battle", "The French surrendered to Washington", "Washington surrendered for the only time in his life", "The fort burned down in a storm"],
+      "answer": 2
+    },
+    {
+      "story": "era01-story05",
+      "q": "What did Washington write to his brother after Braddock's defeat?",
+      "options": ["That he was going home to Virginia for good", "That the war was over", "That he had found gold in the Ohio Country", "That two horses were shot from under him and four bullets went through his coat"],
+      "answer": 3
+    },
+    {
+      "story": "era01-story05",
+      "q": "Who actually lived in the Ohio Country that Britain and France were fighting over?",
+      "options": ["Nobody at all", "Shawnee, Delaware, Mingo, and other native nations", "Spanish settlers", "Dutch fur traders"],
+      "answer": 1
+    },
+    {
+      "story": "era01-story05",
+      "q": "Why did Britain start taxing the colonies after winning the war in 1763?",
+      "options": ["The war had nearly doubled Britain's debt", "The colonies asked to be taxed", "France demanded it in the treaty", "The king wanted to build a palace in America"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "era01-story02",
+  "era": 1,
+  "slot": 2,
+  "title": "Sixty-Six Days",
+  "subtitle": "Plymouth, 1620–1621",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era01-story02.webp",
+  "paragraphs": [
+    "Somewhere in the middle of the Atlantic Ocean, in a screaming autumn storm, the main beam of the Mayflower cracks.",
+    "There are 102 passengers packed below decks, seasick in the dark, and now the ship itself is breaking. The sailors talk about turning back. Then someone remembers the great iron screw the passengers brought along, and they use it to jack the cracked beam back into place. The Mayflower groans on toward America.",
+    "Many of the passengers call themselves Saints. History will call them Pilgrims. They are ordinary English families, weavers and farmers, who want to worship God in their own way, which is against the law back home. They have bet everything on a wilderness they have never seen.",
+    "After sixty-six days at sea, they sight land in November 1620. It is the wrong land. Storms have pushed them far north of Virginia, to the bare, sandy hook of Cape Cod, where their permission papers mean nothing and winter is already in the air.",
+    "So before anyone goes ashore, the men crowd into the ship's cabin and sign a promise. They will stick together, make fair laws by common agreement, and obey them. They call it a compact. It is a small piece of paper, and a very large idea: people governing themselves.",
+    "The first winter nearly kills them all. They chop and build in the snow while sickness moves through the ship. By spring, half of them are dead. Fourteen of the eighteen mothers are gone. The survivors bury their dead and keep building.",
+    "Then, on a mild day in March, a tall man walks calmly out of the woods and greets them in English.",
+    "His name is Samoset, and he has learned the language from English fishermen. Days later he returns with another man whose English is even better, and whose story stops them cold. His name is Tisquantum. People today remember him as Squanto.",
+    "Years earlier, an English sea captain had kidnapped Squanto and sold him across the ocean. It took him years to get home. When he finally reached his own town, Patuxet, it was gone. A terrible sickness, brought by European ships, had swept the coast and wiped out his entire village. The empty fields where the Pilgrims are now settling were his home.",
+    "Squanto has every reason to hate these strangers. Instead, he moves in with them and saves their lives. He shows them how to plant corn in little hills with fish for fertilizer, where the eels run, which plants heal and which kill. He translates for them with Massasoit, the great Wampanoag leader, who agrees to a peace. That peace will hold for more than fifty years.",
+    "In the fall of 1621, the harvest comes in and the colonists gather to celebrate. Massasoit arrives with about ninety of his men, bringing five deer, and for three days the two peoples feast together on venison, wild birds, corn, and fish.",
+    "No one there calls it Thanksgiving. No one there knows they are starting anything. It is just one good autumn after a terrible year, two very different peoples at the same fire, alive because they helped each other."
+  ],
+  "audio": {
+    "src": "audio/tier1/era01-story02.mp3",
+    "timestamps": "audio/tier1/era01-story02.json"
+  },
+  "connections": {
+    "trait": "Generosity",
+    "body": "Squanto had been kidnapped, enslaved, and orphaned of his whole village, and much of it was the fault of English ships. He helped the newcomers anyway. Generosity is easy when life has been kind to you. His kind, the kind that grows in hurt ground, is the rarest and strongest there is.",
+    "askTogether": "Has anyone ever been kind to you when they had every reason not to be? What did that feel like?"
+  },
+  "sources": [
+    "102 passengers, 66-day crossing, cracked main beam raised with the 'great iron screw': William Bradford, Of Plymouth Plantation.",
+    "Mayflower Compact signed Nov 11, 1620 (O.S.) before landing; roughly half the company died the first winter; 14 of 18 wives dead by spring (standard Plymouth scholarship).",
+    "Samoset's greeting recorded in Mourt's Relation (1622). Tisquantum's kidnapping by Thomas Hunt, years abroad, and the epidemic (c. 1616-19) that destroyed Patuxet: Bradford; John Smith's accounts.",
+    "Massasoit treaty, spring 1621, kept for over 50 years; 1621 harvest feast with about 90 Wampanoag men and five deer: Edward Winslow's letter in Mourt's Relation."
+  ]
+}

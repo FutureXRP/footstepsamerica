@@ -1,0 +1,39 @@
+{
+  "id": "era01-story05",
+  "era": 1,
+  "slot": 5,
+  "title": "The Young Messenger",
+  "subtitle": "The Ohio Country, 1753–1763",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era01-story05.webp",
+  "paragraphs": [
+    "In the dead of winter, 1753, a twenty-one-year-old Virginian rides north through frozen forest carrying a letter that could start a war.",
+    "His name is George Washington. He is tall, serious, and almost completely unknown. The governor of Virginia has chosen him to deliver a message to the French, who are building forts in the Ohio Country west of the mountains. The message says, more politely than this: that land belongs to Britain, so leave.",
+    "The French commander receives young Washington with excellent wine and perfect manners, and sends back his answer: no.",
+    "Here is the truth underneath the errand. Britain and France are arguing over land that is not really either empire's to argue about. The Ohio Country is home to Shawnee, Delaware, Mingo, and other nations, and nobody has asked them anything. They will spend the coming war fighting on both sides, trying to save their homelands from whoever wins.",
+    "The trip home nearly kills Washington twice. A guide traveling with him raises a gun and fires at him, and misses. Days later, crossing an icy river on a homemade raft, Washington is thrown into the freezing water and barely pulls himself out. He spends the night on an island in his frozen clothes. He is learning something that will matter later: he is very hard to kill.",
+    "The next year Washington comes back with soldiers, and this time there is shooting. At a hasty stockade he names Fort Necessity, the French and their native allies surround him in a rainstorm, and on July 4, 1754, George Washington surrenders for the first and last time in his life.",
+    "The musket fire in those Pennsylvania woods sets off a chain of explosions across the whole world. Britain and France tumble into a war that spreads to Europe, the Caribbean, India, and the open ocean. In America it is called the French and Indian War. Some historians call it the first true world war.",
+    "In 1755, Washington rides beside a proud British general named Braddock, marching an army through the forest toward the French. The army is ambushed and shattered. Braddock is killed. Washington, burning with fever, gallops through the worst of it carrying orders. He writes to his brother afterward that he had two horses shot from under him and four bullet holes through his coat, and not a scratch on him.",
+    "The war grinds on for years, and Britain finally wins it big. In the peace treaty of 1763, France hands over Canada and everything east of the Mississippi. British colonists light bonfires. They are the proudest subjects of the mightiest empire on earth.",
+    "But someone has to pay for all this. The war has nearly doubled Britain's debt, and in London, the king's ministers look across the ocean at thirteen prosperous colonies and reach a fateful conclusion: it is time the Americans chipped in.",
+    "They begin writing tax laws. No one asks the colonists about those, either.",
+    "You already know what happens next."
+  ],
+  "audio": {
+    "src": "audio/tier1/era01-story05.mp3",
+    "timestamps": "audio/tier1/era01-story05.json"
+  },
+  "connections": {
+    "trait": "Humility",
+    "body": "The man who would one day beat an empire began his career by losing to one. Washington's first command ended in surrender, and he never pretended otherwise. He studied his failures like maps. People who cannot admit they lost cannot learn why.",
+    "askTogether": "Think of a time you lost or failed at something. What did it teach you that winning never could have?"
+  },
+  "sources": [
+    "Washington's 1753-54 mission and journey (published as The Journal of Major George Washington, 1754); the guide's shot and the Allegheny raft accident from Christopher Gist's journal.",
+    "Fort Necessity surrender, July 3-4, 1754; Jumonville affair context omitted for length but on record.",
+    "Braddock's defeat at the Monongahela, July 9, 1755; 'two horses shot under me and four bullets through my coat' from Washington's letter to his brother John Augustine, July 18, 1755, presented as his own report.",
+    "Ohio Country as Shawnee/Delaware/Mingo homeland; native nations fought on both sides. Treaty of Paris 1763; British national debt roughly doubled, driving postwar colonial taxation."
+  ]
+}
