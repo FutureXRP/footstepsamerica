@@ -1,0 +1,41 @@
+{
+  "id": "era02-story05",
+  "era": 2,
+  "slot": 5,
+  "title": "The Trap at Yorktown",
+  "subtitle": "Virginia, autumn 1781",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era02-story05.webp",
+  "paragraphs": [
+    "The war is six years old, and both sides are worn to the bone. Then the British general makes one mistake, and his enemies see it at the same moment.",
+    "General Charles Cornwallis has marched his army, about eight thousand men, to a little tobacco port in Virginia called Yorktown. His back is to the water. The plan is simple. The British navy, the greatest navy on earth, will supply him by sea, or carry him away, whenever he pleases.",
+    "The plan has one weakness. It only works if the British navy controls the water.",
+    "Far to the north, outside New York, George Washington receives electrifying news. A great French fleet under Admiral de Grasse, twenty-eight warships, is sailing for the Chesapeake Bay. That is the very water at Cornwallis's back. France has joined the American cause, and its power is about to arrive all at once.",
+    "What follows is one of the great sneaks in military history. Washington and the French general Rochambeau leave campfires burning and tents standing outside New York, so the British commander there believes the whole army is still watching him. Then they slip away and march their men four hundred miles south through the late summer heat, fast, telling almost no one the destination.",
+    "In early September, at the mouth of the Chesapeake, the French fleet meets the British fleet in an afternoon of thundering broadsides. The battered British ships turn back to New York for repairs.",
+    "The bay is sealed. The trap is shut. Cornwallis is pinned to the land, and the land is filling up with his enemies. By late September, about seventeen thousand American and French soldiers surround Yorktown.",
+    "The siege begins with shovels, not muskets. Night after night the allies dig long trenches, closer and closer to the British walls, and drag heavy guns forward. Washington himself touches off one of the first cannon shots. Then the bombardment begins, and it does not stop, day or night, until the town's defenses are crumbling.",
+    "Two British strongpoints, Redoubts Nine and Ten, block the final trench. They have to be taken. On the night of October 14, French soldiers storm Nine. Four hundred Americans, led by a young colonel named Alexander Hamilton, rush Ten with unloaded muskets, so that no accidental shot can give them away. Bayonets only. Ten minutes of scrambling, shouting chaos, and both forts fall.",
+    "Now the allied guns fire from point-blank range, and Cornwallis has nowhere left to stand. On the morning of October 17, a lone British drummer boy climbs up on the wall and beats the signal for a talk, while an officer beside him waves a white handkerchief. One by one, the guns fall silent.",
+    "Two days later, the British army marches out between two long lines, French soldiers on one side and Americans on the other, and lays down its weapons. A story is told that a British band plays an old tune called The World Turned Upside Down. Cornwallis does not appear. He sends word that he is ill, and his second in command offers the sword of surrender instead.",
+    "About eight thousand British soldiers are prisoners. When the news reaches London, the prime minister, it is said, staggers as if he has been shot and cries out that it is all over.",
+    "It nearly is. The fighting sputters on in a few places, but Yorktown breaks Britain's will to keep going. Two years later, in Paris, Britain signs a treaty recognizing the United States of America as a free and independent nation.",
+    "Thirteen quarrelsome colonies, a borrowed fleet, and an army that once crossed an icy river to stay alive have beaten an empire. Now comes the harder question. What kind of country will they build?"
+  ],
+  "audio": {
+    "src": "audio/tier1/era02-story05.mp3",
+    "timestamps": "audio/tier1/era02-story05.json"
+  },
+  "connections": {
+    "trait": "Cooperation",
+    "body": "America did not win Yorktown alone. French ships sealed the bay, French soldiers stormed a redoubt, and French gold helped pay the army. Washington shared the plan, the risk, and the credit. The biggest victories almost always belong to teams.",
+    "askTogether": "What is something you accomplished that you could not have done without help, and did the helpers know how much they mattered?"
+  },
+  "sources": [
+    "Cornwallis fortified Yorktown with about 8,000 troops, summer 1781. De Grasse's fleet of 28 ships of the line; Battle of the Chesapeake, Sept 5, 1781, forced the British fleet back to New York.",
+    "Washington-Rochambeau deception at New York (decoy camps, false dispatches) and the roughly 400-mile march south are standard accounts (e.g., Ketchum, Victory at Yorktown).",
+    "Allied siege force about 16,000-19,000 ('about seventeen thousand'); Washington ceremonially fired an early shot of the bombardment (period tradition). Redoubts 9 and 10 stormed night of Oct 14; Hamilton led ~400 light infantry with unloaded muskets.",
+    "Drummer and white flag Oct 17; surrender Oct 19 with O'Hara presenting the sword; 'World Turned Upside Down' is tradition, flagged as 'a story is told'; ~7,000-8,000 surrendered. Lord North's 'Oh God, it is all over' reported secondhand, hedged with 'it is said.' Treaty of Paris, 1783."
+  ]
+}

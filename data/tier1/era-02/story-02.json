@@ -1,0 +1,40 @@
+{
+  "id": "era02-story02",
+  "era": 2,
+  "slot": 2,
+  "title": "Two Lanterns",
+  "subtitle": "Lexington and Concord, April 1775",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era02-story02.webp",
+  "paragraphs": [
+    "It is close to midnight on April 18, 1775, and a silversmith is rowing across the water at Boston with muffled oars, right under the guns of a British warship.",
+    "His name is Paul Revere, and he is in a hurry.",
+    "Hundreds of British soldiers are climbing into boats on the Boston shore. They are marching tonight, out into the countryside, to seize the colonists' hidden guns and gunpowder at Concord. Boston's patriots have sworn that the towns will be warned before the soldiers arrive.",
+    "High above the city, two lanterns glow for a moment in the steeple of the Old North Church. It is a code, arranged in advance. One lantern if the soldiers march out by land. Two if they cross the water. Tonight, two.",
+    "Revere reaches the far shore, borrows a fast horse, and pounds through the dark from village to village. Another rider, William Dawes, gallops out of Boston by a different road. At every farmhouse the message is the same. The regulars are coming out.",
+    "Church bells ring. Drums rattle. Lamps flicker on in dark kitchens, and men who are farmers by day take their muskets down from over the fireplace. They call themselves minutemen, because they have promised to be ready in a minute.",
+    "Revere never makes it to Concord. A British patrol catches him on the dark road and takes his horse. But by then the alarm is spreading on its own, rider to rider, bell to bell, faster than any patrol can chase it. A young doctor named Samuel Prescott jumps his horse over a stone wall, escapes into the night, and carries the warning the rest of the way.",
+    "At sunrise, the British column marches onto the town green at Lexington. About seventy militiamen stand waiting in the gray light. Facing them are hundreds of trained soldiers of the most powerful empire on earth.",
+    "Captain John Parker commands the militia. A militiaman remembers him saying that if the British mean to have a war, let it begin here.",
+    "No one knows, to this day, who fires the first shot. It cracks across the green, and then comes a ragged roar of musket fire. When the smoke clears, eight colonists are dead in the grass. The British column marches on toward Concord.",
+    "But the countryside is awake now. At Concord's North Bridge, late that morning, ranks of minutemen come down the hill, take fire, and give it back. This time it is the king's soldiers who turn and fall back.",
+    "Then the long road home to Boston becomes a gauntlet. From behind stone walls, barns, and trees, farmers fire on the column mile after mile, and more men arrive with every hour. By nightfall, close to three hundred of the king's soldiers are dead, wounded, or missing, and the survivors stagger into Boston with their proud uniforms torn and dusty.",
+    "The farmers do not go home. They camp in a great ring around the city, thousands of them, and their fires burn like a warning in the dark. The argument is over. The war has begun."
+  ],
+  "audio": {
+    "src": "audio/tier1/era02-story02.mp3",
+    "timestamps": "audio/tier1/era02-story02.json"
+  },
+  "connections": {
+    "trait": "Readiness",
+    "body": "The minutemen were ordinary people. Farmers, blacksmiths, doctors. But they trained, planned signals, and kept watch long before the emergency came. When the bells rang at midnight, the time for getting ready was already over.",
+    "askTogether": "What is something worth practicing now, so you are ready the moment it really matters?"
+  },
+  "sources": [
+    "Revere's own 1798 account to Jeremy Belknap: crossing under HMS Somerset, the pre-arranged Old North Church lantern signal, capture near Lincoln; Dawes's separate route and Prescott completing the ride to Concord.",
+    "Lexington green: about 77 militiamen under Capt. John Parker vs. the British advance force; 8 colonists killed. Parker's 'let it begin here' comes from later participant recollection and is attributed as remembered speech in the text.",
+    "First shot's origin unknown; standard scholarship (e.g., Fischer, Paul Revere's Ride).",
+    "North Bridge engagement and the retreat to Boston; total British casualties about 273 ('close to three hundred'), colonial about 95; militia siege ring around Boston followed."
+  ]
+}

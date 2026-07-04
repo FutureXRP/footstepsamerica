@@ -1,0 +1,41 @@
+{
+  "id": "era02-story03",
+  "era": 2,
+  "slot": 3,
+  "title": "The Crossing",
+  "subtitle": "Christmas night, 1776",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era02-story03.webp",
+  "paragraphs": [
+    "It is Christmas night, 1776, and the American Revolution is almost dead.",
+    "George Washington's army has been beaten all year. Beaten at Brooklyn. Beaten at Manhattan. Chased across New Jersey through mud and cold. An army of twenty thousand has melted down to a few thousand, and most of those men can go home in six days, when their enlistments run out on New Year's Eve.",
+    "The soldiers are hungry. Some have no shoes. Friends of the Revolution are starting to whisper that it is finished.",
+    "Washington has one card left, and he plays it in a snowstorm.",
+    "Across the Delaware River, in the town of Trenton, sit about fourteen hundred Hessian soldiers. Hessians are professionals from Germany, hired to fight for the king, and they are very good at their job. Nobody attacks in weather like this. Which is exactly why Washington is going to.",
+    "The password for the night is three words. Victory or death. He means it. If this fails, there is no army left to try again.",
+    "At the river's edge the boats are waiting, big black cargo boats gathered from up and down the river. Fishermen from Marblehead, Massachusetts, men who have handled boats in bad water all their lives, take the oars and the poles.",
+    "The boats push off into the storm.",
+    "Sleet cuts sideways. Slabs of ice come grinding down the current and slam against the hulls. Horses stamp and slide. Eighteen cannon are floated across one at a time, because Colonel Henry Knox insists the guns will win this fight. His huge voice booms over the wind all night, steering boats through the dark.",
+    "It takes hours longer than planned. It is nearly four in the morning before 2,400 soldiers stand shivering on the New Jersey shore. Trenton is still nine miles away, and the sun is coming.",
+    "They march. Men wrap rags around bare feet. Two soldiers, the story is told, freeze to death on that road. The rest keep walking. When an officer sends word that the storm has soaked the muskets and they may not fire, Washington sends his answer back down the line. Then use the bayonet. The town must be taken.",
+    "At about eight in the morning, the Americans burst out of the swirling snow at a dead run. The Hessians tumble from their houses half awake, trying to form ranks in the streets while Knox's cannon roar down the long avenues. The fight lasts about ninety minutes.",
+    "Around nine hundred Hessians surrender. The Americans lose almost no one in the battle itself. An officer riding beside Washington remembers him saying, quietly, that this is a glorious day for our country.",
+    "The news races through the colonies like a spark through dry grass. Recruits sign up. Wavering soldiers decide to stay. The Revolution, which was almost dead on Christmas night, is alive again by New Year's."
+  ],
+  "audio": {
+    "src": "audio/tier1/era02-story03.mp3",
+    "timestamps": "audio/tier1/era02-story03.json"
+  },
+  "connections": {
+    "trait": "Perseverance",
+    "body": "Washington's soldiers did not feel brave that night. They were cold, hungry, and losing. They rowed anyway, marched anyway, fought anyway. Courage is not the absence of misery. It is putting one frozen foot in front of the other when quitting would be easier.",
+    "askTogether": "What is something hard you kept doing when quitting would have been easier?"
+  },
+  "sources": [
+    "Crossing at McConkey's Ferry in Durham boats crewed largely by Glover's Marblehead regiment; storm, ice, ~3-4 a.m. completion, ~2,400 men and 18 guns (Fischer, Washington's Crossing).",
+    "Password 'Victory or Death' recorded in operational orders. Trenton garrison ~1,400-1,500 Hessians under Col. Johann Rall; attack began ~8 a.m. Dec 26; roughly 900 captured; American battle casualties near zero.",
+    "Two men freezing on the march is period tradition, flagged with 'the story is told.' Washington's 'glorious day for our country' per Maj. James Wilkinson's memoir, attributed as remembered speech.",
+    "Bayonet order relayed via Gen. Sullivan's messenger, per participant accounts."
+  ]
+}

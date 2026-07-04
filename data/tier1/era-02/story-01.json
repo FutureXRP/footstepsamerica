@@ -1,0 +1,40 @@
+{
+  "id": "era02-story01",
+  "era": 2,
+  "slot": 1,
+  "title": "Salt Water Tea",
+  "subtitle": "Boston Harbor, December 16, 1773",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era02-story01.webp",
+  "paragraphs": [
+    "The tea is worth a fortune, and it is sitting in Boston Harbor where everyone can see it.",
+    "Three ships ride at anchor at Griffin's Wharf. The Dartmouth. The Eleanor. The Beaver. Down in their dark holds sit 342 heavy wooden chests, packed tight with tea from the other side of the world.",
+    "Boston does not want it.",
+    "Here is the problem. The king's government in London has put a tax on tea, and the colonists never got a vote. No one from America sits in Parliament. No one asked Boston anything. So to the people of Massachusetts, this is not really about tea at all. It is about whether faraway rulers can reach into your pocket whenever they please.",
+    "On the night of December 16, 1773, thousands of people pack into the Old South Meeting House, shoulder to shoulder, all the way to the doors. For weeks they have demanded that the governor send the ships and their tea back to England. Word arrives that he has refused, again. Samuel Adams stands up and tells the crowd that this meeting can do nothing more to save the country.",
+    "Some people say those words are a secret signal. Because what happens next does not look like an accident.",
+    "Whoops and whistles sound in the street. Dozens of men, maybe more than a hundred, move quickly through the dark toward the wharf. They are in disguise, faces darkened with soot and paint, blankets thrown over their shoulders, so that no one can name them later. Naming them could get them hanged.",
+    "They climb aboard the three ships. They ask the crews to step aside, and the crews do. Then they get to work.",
+    "Ropes creak. The heavy chests come up from the holds one by one. Hatchets split them open. Tea spills into the black water of the harbor, chest after chest after chest, for nearly three hours. All 342 chests. About ninety thousand pounds of tea. Enough for millions of cups.",
+    "And here is the strange part. Nothing else is touched. Nobody is hurt. When the men finish, they sweep the decks clean. One padlock gets broken by mistake, and a new one is quietly sent to replace it. This is not a mob smashing whatever it can reach. It is a message, delivered with icy politeness. We will not be taxed without a voice.",
+    "By morning, drifts of soggy tea are washing up along the shore. Boys row out and beat the floating clumps with their oars, to make sure not one cup of it can ever be saved.",
+    "When the news reaches London, the king's government is furious. It closes the port of Boston until the tea is paid for. It strips Massachusetts of much of its self-government. Britain means to make an example of one stubborn town.",
+    "Instead, something unexpected happens. The other colonies send food, money, and supplies to Boston, and they begin to speak of themselves as one people with one cause. The harbor smells of tea. The whole continent smells of trouble."
+  ],
+  "audio": {
+    "src": "audio/tier1/era02-story01.mp3",
+    "timestamps": "audio/tier1/era02-story01.json"
+  },
+  "connections": {
+    "trait": "Conviction",
+    "body": "The men who boarded those ships risked prison and worse for a principle. They believed that being ruled without a voice was wrong, and they were willing to pay a price for saying so. Notice how they did it: no one was hurt, nothing was stolen, and the message was unmistakable.",
+    "askTogether": "What is something you believe is right, and what would you be willing to give up to stand for it?"
+  },
+  "sources": [
+    "342 chests aboard Dartmouth, Eleanor, and Beaver at Griffin's Wharf; roughly 90,000+ lbs of East India Company tea destroyed Dec 16, 1773 (Boston Tea Party Ships & Museum; Massachusetts Historical Society records).",
+    "Old South Meeting House gathering and Samuel Adams's 'nothing more to save the country' remark reported in contemporary accounts; its role as a planned signal is traditional and flagged as such in the text.",
+    "Participants disguised, decks swept, broken padlock replaced: participant recollections incl. George R. T. Hewes (A Retrospect of the Tea-Party, 1834).",
+    "British response: Coercive/Intolerable Acts 1774, incl. Boston Port Act; other colonies' relief shipments to Boston are well documented."
+  ]
+}

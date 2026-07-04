@@ -1,0 +1,154 @@
+/* Footsteps Through America — app shell styles (Trail, Story, Quiz screens).
+   Tokens come from tokens.css. */
+
+#view{min-height:60vh;padding:48px 24px 96px;}
+.loading{color:var(--ink-soft);font-style:italic;padding:48px 0;}
+
+.crumb{
+  display:inline-block;margin-bottom:28px;text-decoration:none;
+  font-family:'Archivo',sans-serif;font-size:13px;font-weight:700;
+  letter-spacing:0.08em;color:var(--ink-soft);
+}
+.crumb:hover{color:var(--oxblood);}
+
+.screen-head{max-width:640px;margin-bottom:48px;}
+.screen-head .label{display:block;margin-bottom:14px;}
+.screen-head h1{font-size:clamp(30px,4.4vw,48px);}
+.screen-sub{margin-top:14px;color:var(--ink-soft);font-size:18px;max-width:56ch;}
+
+/* ---------- Trail screen ---------- */
+.trail-screen{position:relative;max-width:640px;}
+.trail-screen .trail-line{
+  position:absolute;left:26px;top:10px;bottom:10px;width:0;
+  border-left:2px dashed var(--brass-soft);
+}
+.trail-era{
+  position:relative;display:block;padding:0 0 44px 84px;text-decoration:none;
+}
+.trail-era .era-badge{
+  position:absolute;left:0;top:0;width:54px;height:54px;border-radius:50%;
+  background:var(--paper);border:2px solid var(--brass);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Archivo',sans-serif;font-size:11px;font-weight:700;color:var(--ink);
+}
+.trail-era h3{font-size:22px;}
+.trail-era .years{font-family:'Archivo',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.16em;color:var(--oxblood);text-transform:uppercase;}
+.trail-era p{color:var(--ink-soft);font-size:16.5px;max-width:56ch;margin-top:6px;}
+.trail-era .era-status{
+  display:inline-block;margin-top:10px;font-family:'Archivo',sans-serif;font-size:11px;
+  font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--brass);
+}
+a.trail-era:hover h3{color:var(--oxblood);}
+.trail-era.locked{opacity:.55;}
+.trail-era.locked .era-badge{border-color:var(--rule);color:var(--ink-soft);}
+.trail-era.earned .era-badge{background:var(--brass);border-color:var(--brass);color:var(--paper);}
+.trail-era.final .era-badge{background:var(--ink);border-color:var(--ink);color:var(--brass-soft);font-size:16px;}
+.trail-era.final.earned .era-badge{background:var(--oxblood);border-color:var(--oxblood);}
+.trail-era.final h3{color:var(--oxblood);}
+
+/* ---------- Era screen ---------- */
+.story-list{max-width:640px;display:grid;gap:0;margin-bottom:48px;}
+.story-row{
+  display:flex;align-items:center;gap:20px;padding:20px 6px;text-decoration:none;
+  border-top:1px solid var(--rule);
+}
+.story-list .story-row:last-child{border-bottom:1px solid var(--rule);}
+.story-row:hover strong{color:var(--oxblood);}
+.story-num{
+  flex:0 0 auto;width:40px;height:40px;border-radius:50%;border:1.5px solid var(--brass);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Archivo',sans-serif;font-size:13px;font-weight:700;color:var(--ink);
+}
+.story-row.read .story-num{background:var(--brass);color:var(--paper);}
+.story-row-body{flex:1;display:flex;flex-direction:column;}
+.story-row-body strong{font-family:'Libre Caslon Display',serif;font-weight:400;font-size:20px;}
+.story-row-sub{font-size:14px;color:var(--ink-soft);}
+.story-check{color:var(--brass);font-size:18px;width:22px;text-align:center;}
+
+.era-quiz-card{
+  max-width:640px;background:var(--paper-deep);border:1px solid var(--rule);border-radius:8px;
+  padding:30px;display:flex;gap:24px;flex-wrap:wrap;align-items:center;justify-content:space-between;
+}
+.era-quiz-card h3{font-size:24px;margin-top:8px;}
+.era-quiz-card p{color:var(--ink-soft);font-size:16px;margin-top:8px;max-width:44ch;}
+.era-quiz-card .quiz-passed{color:var(--brass);font-family:'Archivo',sans-serif;font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;}
+.era-quiz-card .quiz-hint{font-style:italic;}
+.era-quiz-actions{display:flex;gap:12px;flex-wrap:wrap;}
+
+/* ---------- Story screen ---------- */
+.story-hero{
+  max-width:720px;border-radius:8px;overflow:hidden;position:relative;
+  background:radial-gradient(120% 140% at 20% 0%, #33435E 0%, var(--night) 60%);
+  padding:110px 28px 26px;margin-bottom:22px;
+}
+.story-hero .years{font-family:'Archivo',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.2em;color:var(--brass-soft);text-transform:uppercase;position:absolute;top:20px;left:24px;}
+.story-hero .stars{position:absolute;top:18px;right:24px;color:var(--brass-soft);letter-spacing:6px;font-size:11px;}
+.story-hero h1{color:var(--paper-on-night);font-size:clamp(30px,4.4vw,44px);}
+.story-hero-sub{color:var(--brass-soft);font-family:'Archivo',sans-serif;font-size:13px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;margin-top:8px;}
+
+.player-mount{position:sticky;top:12px;z-index:20;max-width:720px;margin-bottom:26px;}
+.player{
+  background:var(--paper-deep);border:1px solid var(--rule);border-radius:6px;
+  padding:14px 18px;display:flex;gap:16px;align-items:center;
+  box-shadow:0 10px 24px -16px rgba(32,43,60,.4);
+}
+/* author display rules above would otherwise defeat the hidden attribute */
+.player[hidden],.player-soon[hidden],.player svg[hidden]{display:none;}
+.player .playbtn{
+  flex:0 0 auto;width:44px;height:44px;border-radius:50%;background:var(--oxblood);
+  color:var(--paper);display:flex;align-items:center;justify-content:center;border:none;cursor:pointer;
+}
+.player-mid{flex:1;display:flex;flex-direction:column;gap:6px;}
+.player-mid .label{color:var(--brass);letter-spacing:0.18em;}
+.scrub{width:100%;accent-color:var(--oxblood);}
+.ptime{font-family:'Archivo',sans-serif;font-size:13px;font-weight:700;color:var(--ink-soft);}
+.player-soon{color:var(--ink-soft);font-size:15px;padding:8px 2px;}
+
+.story-text{max-width:720px;font-size:19px;}
+.story-text p + p{margin-top:18px;}
+
+.connections-card{
+  max-width:720px;margin-top:36px;background:var(--paper-deep);border-left:3px solid var(--oxblood);
+  padding:20px 22px;border-radius:0 4px 4px 0;font-size:16.5px;
+}
+.connections-card strong{font-family:'Archivo',sans-serif;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--oxblood);display:block;margin-bottom:8px;}
+.connections-card .ask{margin-top:10px;}
+
+.story-footer{max-width:720px;margin-top:40px;display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+
+.paywall-card{max-width:640px;padding:40px 0;}
+.paywall-card h1{font-size:clamp(28px,4vw,42px);margin-top:12px;}
+.paywall-card .btn{margin-top:24px;}
+
+/* ---------- Quiz screen ---------- */
+.quiz-card{max-width:640px;}
+.quiz-progress{font-family:'Archivo',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--ink-soft);margin:16px 0 10px;}
+.quiz-q{font-size:clamp(24px,3.4vw,32px);margin-bottom:26px;}
+.quiz-options{display:grid;gap:12px;}
+.quiz-opt{
+  text-align:left;background:#FBF7EC;border:1px solid var(--rule);border-radius:6px;
+  padding:16px 18px;font-family:'Source Serif 4',Georgia,serif;font-size:17px;color:var(--ink);
+  cursor:pointer;transition:border-color .15s ease;
+}
+.quiz-opt:hover:not(:disabled){border-color:var(--brass);}
+.quiz-opt.right{border-color:var(--brass);background:#F3EBD3;box-shadow:inset 0 0 0 1px var(--brass);}
+.quiz-opt.wrong{border-color:var(--oxblood);box-shadow:inset 0 0 0 1px var(--oxblood);}
+.quiz-opt:disabled{cursor:default;}
+.quiz-feedback{margin-top:20px;}
+.quiz-feedback p{color:var(--ink-soft);margin-bottom:14px;}
+
+.quiz-results{padding-top:24px;}
+.quiz-score{font-family:'Libre Caslon Display',serif;font-size:72px;color:var(--brass);margin:10px 0 6px;}
+.quiz-score span{font-size:32px;color:var(--ink-soft);}
+.quiz-results h2{font-size:clamp(26px,3.6vw,38px);}
+.quiz-actions{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap;}
+.cert-name-row{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap;}
+.cert-name-row input{
+  flex:1;min-width:220px;padding:13px 16px;font-family:'Source Serif 4',Georgia,serif;font-size:17px;
+  border:1px solid var(--rule);border-radius:3px;background:#FBF7EC;color:var(--ink);
+}
+
+/* ---------- app footer ---------- */
+.app-footer{border-top:1px solid var(--rule);padding:40px 0 56px;text-align:center;}
+.app-footer .starline{color:var(--brass);letter-spacing:12px;font-size:13px;margin-bottom:16px;}
+.app-footer .sig{font-family:'Libre Caslon Display',serif;font-size:18px;}

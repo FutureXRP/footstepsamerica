@@ -1,0 +1,38 @@
+{
+  "id": "era02-story04",
+  "era": 2,
+  "slot": 4,
+  "title": "The Winter Camp",
+  "subtitle": "Valley Forge, 1777–1778",
+  "tier": 1,
+  "readMinutes": 5,
+  "heroImage": "assets/art/era02-story04.webp",
+  "paragraphs": [
+    "You can follow the American army to its winter camp by the marks its soldiers leave in the snow. Some of the marks are bloody, because some of the men have no shoes.",
+    "It is December 1777, and the Revolution is limping. The British army has captured Philadelphia, the capital itself, and is spending the winter there in warm houses. George Washington's army, about twelve thousand men, marches instead to a windswept slope eighteen miles away called Valley Forge.",
+    "There are no barracks. There is barely any food. So the soldiers build their own city with axes. More than a thousand log huts rise in a matter of weeks, twelve men to a hut. Smoke from green firewood stings their eyes. Supper, when there is supper, is often firecake, a sad little slab of flour and water baked on a hot stone.",
+    "Washington writes letter after letter begging Congress for food, clothing, and blankets. He lives in a tent until his soldiers have roofs over their heads, then moves into a small stone house beside the camp. Whatever they suffer, he stays close enough to see it.",
+    "The deadliest enemy that winter is not the British. It is sickness. Fevers and disease sweep through the crowded huts, and before spring about two thousand soldiers die. Yet the army does not dissolve. Some men desert. Most stay, hungry and half clothed, held together by loyalty to each other and to the tall general who will not leave.",
+    "Then, in February, help arrives speaking German.",
+    "Baron Friedrich von Steuben has crossed the ocean from Prussia, a kingdom where soldiering is practically a science. He barely speaks English. He is loud, dramatic, and completely sure of himself, and the soldiers love him almost at once.",
+    "Von Steuben picks one model company of about one hundred men and drills them himself, an unheard of thing for a senior officer to do. March. Turn. Load. Fire. Again. When the lines tangle, he erupts in thundering German and French, and then, the story is told, he calls over an aide and demands that the man come curse at the soldiers in English for him. The men laugh. Then they get it right.",
+    "The hundred he trains go out and train hundreds more, and those hundreds train thousands. He writes it all down in a drill book the army will use for decades. All through the cold months, the sound of Valley Forge is tramping feet, day after day. An army is teaching itself to be an army.",
+    "Spring comes. The roads dry. And in June 1778, at a place called Monmouth Courthouse, this same ragged army stands in the open field against the best troops Britain has, trades volley for volley in brutal heat, and does not break.",
+    "Valley Forge has no battle. No charge, no cannon smoke, no victory parade. Just endurance, and the long patient work of getting better. It may be the most important winter in American history."
+  ],
+  "audio": {
+    "src": "audio/tier1/era02-story04.mp3",
+    "timestamps": "audio/tier1/era02-story04.json"
+  },
+  "connections": {
+    "trait": "Endurance",
+    "body": "Nobody at Valley Forge could win the war that winter. All they could do was stay, keep each other alive, and get a little better every day. Sometimes the bravest thing is not a charge. It is refusing to quit, and using the hard season to grow.",
+    "askTogether": "When something in your life is hard and slow, what helps you keep going and improve a little every day?"
+  },
+  "sources": [
+    "About 12,000 troops encamped Dec 1777; roughly 2,000 deaths, overwhelmingly from disease; more than a thousand log huts built (Valley Forge NHP / NPS).",
+    "Bloody footprints and firecake attested in soldier and surgeon accounts (e.g., Joseph Plumb Martin; Albigence Waldo diary).",
+    "Washington remained in his marquee tent until hut construction was underway, then headquartered at the Isaac Potts house (NPS).",
+    "Von Steuben arrived Feb 1778; model company drill; multilingual cursing anecdote is period tradition, flagged with 'the story is told'; his 'Blue Book' regulations used for decades. Battle of Monmouth, June 28, 1778."
+  ]
+}
