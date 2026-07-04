@@ -1,0 +1,157 @@
+{
+  "era": 2,
+  "title": "The Revolution",
+  "passPercent": 80,
+  "questions": [
+    {
+      "story": "era02-story01",
+      "q": "How many chests of tea were destroyed at the Boston Tea Party?",
+      "options": ["42", "150", "342", "3,420"],
+      "answer": 2
+    },
+    {
+      "story": "era02-story01",
+      "q": "Where did the huge town meeting gather on the night of December 16, 1773?",
+      "options": ["Faneuil Hall", "The Old South Meeting House", "Boston Common", "Griffin's Wharf"],
+      "answer": 1
+    },
+    {
+      "story": "era02-story01",
+      "q": "Why were the colonists so angry about the tea tax?",
+      "options": ["The tea was stale and overpriced", "They were taxed without any vote or voice in Parliament", "They wanted to drink coffee instead", "The ships had arrived on the wrong day"],
+      "answer": 1
+    },
+    {
+      "story": "era02-story01",
+      "q": "Besides destroying the tea, what did the men on the ships do?",
+      "options": ["They burned the ships to the waterline", "They took the sailors prisoner", "They stole the ships' cargo of silver", "They swept the decks clean and replaced a broken padlock"],
+      "answer": 3
+    },
+    {
+      "story": "era02-story01",
+      "q": "How did the British government punish Boston for the Tea Party?",
+      "options": ["It closed the port of Boston until the tea was paid for", "It doubled the tax on coffee", "It moved the capital to New York", "It sent the town a bill and forgot about it"],
+      "answer": 0
+    },
+    {
+      "story": "era02-story02",
+      "q": "What did two lanterns in the Old North Church steeple mean?",
+      "options": ["The British were staying in Boston", "The British were crossing the water", "The British were marching out by land", "The war was over"],
+      "answer": 1
+    },
+    {
+      "story": "era02-story02",
+      "q": "Who carried the warning the rest of the way to Concord after Paul Revere was captured?",
+      "options": ["William Dawes", "Samuel Adams", "Samuel Prescott, a young doctor", "John Parker"],
+      "answer": 2
+    },
+    {
+      "story": "era02-story02",
+      "q": "About how many militiamen stood on Lexington green at sunrise?",
+      "options": ["About seventy", "About seven hundred", "About seven", "About seven thousand"],
+      "answer": 0
+    },
+    {
+      "story": "era02-story02",
+      "q": "What happened at Concord's North Bridge?",
+      "options": ["The militia surrendered their weapons", "The bridge was burned down", "Paul Revere gave a speech", "The minutemen returned fire and the British fell back"],
+      "answer": 3
+    },
+    {
+      "story": "era02-story02",
+      "q": "What did the militia do after chasing the British back to Boston?",
+      "options": ["They went home to plant their fields", "They camped in a great ring around the city", "They sailed to England", "They marched to Philadelphia"],
+      "answer": 1
+    },
+    {
+      "story": "era02-story03",
+      "q": "What was the American password on Christmas night, 1776?",
+      "options": ["Liberty or death", "Victory or death", "Cross or die", "Remember Boston"],
+      "answer": 1
+    },
+    {
+      "story": "era02-story03",
+      "q": "Who handled the boats that carried the army across the Delaware?",
+      "options": ["Fishermen from Marblehead, Massachusetts", "Hessian prisoners", "French sailors", "Virginia cavalrymen"],
+      "answer": 0
+    },
+    {
+      "story": "era02-story03",
+      "q": "Who insisted on floating eighteen cannon across the icy river?",
+      "options": ["Paul Revere", "Baron von Steuben", "Colonel Henry Knox", "General Cornwallis"],
+      "answer": 2
+    },
+    {
+      "story": "era02-story03",
+      "q": "Who were the Hessians?",
+      "options": ["American spies working for Washington", "Professional soldiers from Germany hired to fight for the king", "British sailors from the navy", "Canadian fur traders"],
+      "answer": 1
+    },
+    {
+      "story": "era02-story03",
+      "q": "About how many Hessians surrendered at Trenton?",
+      "options": ["About ninety", "About nine thousand", "About nine hundred", "None at all"],
+      "answer": 2
+    },
+    {
+      "story": "era02-story04",
+      "q": "Where did the British army spend the winter of 1777 to 1778?",
+      "options": ["In warm houses in Philadelphia", "In log huts at Valley Forge", "On ships in Boston Harbor", "In New York"],
+      "answer": 0
+    },
+    {
+      "story": "era02-story04",
+      "q": "What was firecake?",
+      "options": ["A birthday treat for General Washington", "A slab of flour and water baked on a hot stone", "A cannon shell that caught fire", "Beef roasted over a bonfire"],
+      "answer": 1
+    },
+    {
+      "story": "era02-story04",
+      "q": "What killed the most soldiers at Valley Forge?",
+      "options": ["British attacks", "Wolves", "Sickness and disease", "Avalanches"],
+      "answer": 2
+    },
+    {
+      "story": "era02-story04",
+      "q": "Who arrived in February to drill the army into shape?",
+      "options": ["Admiral de Grasse", "Baron Friedrich von Steuben", "Benjamin Franklin", "Colonel Rall"],
+      "answer": 1
+    },
+    {
+      "story": "era02-story04",
+      "q": "What battle in June 1778 proved the winter's training had worked?",
+      "options": ["Monmouth Courthouse", "Bunker Hill", "Trenton", "Saratoga"],
+      "answer": 0
+    },
+    {
+      "story": "era02-story05",
+      "q": "Where did General Cornwallis place his army in 1781?",
+      "options": ["Boston, behind tall walls", "Philadelphia, in the capital", "New York, beside the harbor forts", "Yorktown, Virginia, with his back to the water"],
+      "answer": 3
+    },
+    {
+      "story": "era02-story05",
+      "q": "What sealed the trap at Yorktown?",
+      "options": ["The French fleet turned back the British fleet at the Chesapeake", "A hurricane sank the British navy", "Cornwallis ran out of gunpowder", "The British army got lost in the woods"],
+      "answer": 0
+    },
+    {
+      "story": "era02-story05",
+      "q": "How did Washington and Rochambeau fool the British in New York?",
+      "options": ["They dressed their soldiers in British uniforms", "They left campfires burning and tents standing, then slipped away south", "They sent a letter announcing a surrender", "They attacked New York first"],
+      "answer": 1
+    },
+    {
+      "story": "era02-story05",
+      "q": "Who led the American charge on Redoubt Ten?",
+      "options": ["Henry Knox", "John Parker", "Alexander Hamilton", "Samuel Prescott"],
+      "answer": 2
+    },
+    {
+      "story": "era02-story05",
+      "q": "How did the British signal that they wanted to talk about surrender?",
+      "options": ["A drummer boy on the wall and an officer waving a white handkerchief", "A cannon fired three times into the sky", "A letter floated across the river in a bottle", "Church bells rung at midnight"],
+      "answer": 0
+    }
+  ]
+}

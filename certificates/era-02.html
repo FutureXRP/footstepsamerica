@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate — The Revolution — Footsteps Through America</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Archivo:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F3ECDC; --paper-deep:#EAE0C9; --ink:#202B3C; --ink-soft:#3D4A5E;
+    --night:#1A2333; --oxblood:#8A2E35; --brass:#A8792B; --brass-soft:#C29A4E;
+    --rule:#D8CCAF; --paper-on-night:#EFE7D4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--paper-deep);color:var(--ink);
+    font-family:'Source Serif 4',Georgia,serif;
+    display:flex;flex-direction:column;align-items:center;gap:24px;padding:32px 16px;
+  }
+  .cert{
+    background:var(--paper);width:100%;max-width:900px;aspect-ratio:11/8.5;
+    border:3px solid var(--brass);outline:1px solid var(--brass);outline-offset:-10px;
+    padding:56px 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;position:relative;
+  }
+  .cert .badge{
+    width:76px;height:76px;border-radius:50%;border:2.5px solid var(--brass);
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Archivo',sans-serif;font-size:22px;font-weight:700;color:var(--ink);
+    margin-bottom:22px;background:var(--paper);
+  }
+  .cert .label{
+    font-family:'Archivo',sans-serif;font-size:12px;font-weight:700;
+    letter-spacing:0.24em;text-transform:uppercase;color:var(--oxblood);
+  }
+  .cert h1{font-family:'Libre Caslon Display',serif;font-weight:400;font-size:clamp(28px,4.6vw,44px);margin:14px 0 4px;}
+  .cert .years{font-family:'Archivo',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.2em;color:var(--ink-soft);text-transform:uppercase;}
+  .cert .certifies{margin-top:30px;color:var(--ink-soft);font-size:17px;}
+  .cert .name{
+    font-family:'Libre Caslon Display',serif;font-size:clamp(26px,4vw,40px);
+    border-bottom:1.5px solid var(--brass);padding:6px 40px 8px;margin-top:8px;min-width:50%;
+  }
+  .cert .deed{margin-top:22px;max-width:52ch;font-size:16.5px;color:var(--ink-soft);}
+  .cert .stars{color:var(--brass);letter-spacing:10px;font-size:12px;margin-top:28px;}
+  .cert .sig{font-family:'Libre Caslon Display',serif;font-size:17px;margin-top:14px;}
+  .cert .date{font-family:'Archivo',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--ink-soft);margin-top:6px;}
+  .actions{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;}
+  .btn{
+    font-family:'Archivo',sans-serif;font-weight:700;font-size:14px;letter-spacing:0.05em;
+    border-radius:3px;padding:13px 26px;border:none;cursor:pointer;text-decoration:none;display:inline-block;
+  }
+  .btn-ink{background:var(--ink);color:var(--paper);}
+  .btn-ink:hover{background:var(--oxblood);}
+  .btn-ghost{background:transparent;border:1.5px solid var(--ink);color:var(--ink);}
+  .name-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;align-items:center;}
+  .name-row input{
+    padding:12px 16px;font-family:'Source Serif 4',Georgia,serif;font-size:16px;
+    border:1px solid var(--rule);border-radius:3px;background:#FBF7EC;color:var(--ink);min-width:260px;
+  }
+  @media print{
+    body{background:var(--paper);padding:0;}
+    .actions,.name-row{display:none;}
+    .cert{border-width:3px;max-width:none;box-shadow:none;page-break-inside:avoid;}
+    @page{size:landscape;margin:0.5in;}
+  }
+</style>
+</head>
+<body>
+
+<div class="cert">
+  <div class="badge">II</div>
+  <span class="label">Footsteps Through America &middot; Era Badge</span>
+  <h1>The Revolution</h1>
+  <div class="years">1763 &ndash; 1783</div>
+  <p class="certifies">This certifies that</p>
+  <div class="name" id="certName">&nbsp;</div>
+  <p class="deed">has walked the trail of the Revolution, from a harbor full of tea to the surrender at Yorktown, and has passed the mastery quiz with honor. Earned, not given.</p>
+  <div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733;</div>
+  <div class="sig">Footsteps Through America</div>
+  <div class="date" id="certDate"></div>
+</div>
+
+<div class="name-row">
+  <input type="text" id="nameInput" maxlength="60" placeholder="Name on the certificate">
+</div>
+
+<div class="actions">
+  <button class="btn btn-ink" onclick="window.print()">Print certificate</button>
+  <a class="btn btn-ghost" href="../app/#/trail">Back to the Trail</a>
+</div>
+
+<script>
+  (function(){
+    var name = '';
+    try{
+      var s = JSON.parse(localStorage.getItem('fta-progress-v1')) || {};
+      name = s.name || '';
+    }catch(e){}
+    var nameEl = document.getElementById('certName');
+    var input = document.getElementById('nameInput');
+    function setName(n){
+      nameEl.textContent = n || ' ';
+      try{
+        var s = JSON.parse(localStorage.getItem('fta-progress-v1')) || {};
+        s.name = n;
+        localStorage.setItem('fta-progress-v1', JSON.stringify(s));
+      }catch(e){}
+    }
+    input.value = name;
+    nameEl.textContent = name || ' ';
+    input.addEventListener('input', function(){ setName(input.value); });
+
+    var d = new Date();
+    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    document.getElementById('certDate').textContent =
+      'Completed ' + months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+  })();
+</script>
+
+</body>
+</html>

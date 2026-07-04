@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Footsteps Through America — True stories. Told straight.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Archivo:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F3ECDC;
+    --paper-deep:#EAE0C9;
+    --ink:#202B3C;
+    --ink-soft:#3D4A5E;
+    --night:#1A2333;
+    --oxblood:#8A2E35;
+    --brass:#A8792B;
+    --brass-soft:#C29A4E;
+    --rule:#D8CCAF;
+    --paper-on-night:#EFE7D4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *,*::before,*::after{animation:none!important;transition:none!important;}
+  }
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Source Serif 4', Georgia, serif;
+    font-size:18px;
+    line-height:1.65;
+  }
+  h1,h2,h3{font-family:'Libre Caslon Display', Georgia, serif;font-weight:400;line-height:1.12;letter-spacing:-0.005em;}
+  .label{
+    font-family:'Archivo', sans-serif;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:0.22em;
+    text-transform:uppercase;
+    color:var(--oxblood);
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+  a{color:inherit;}
+  :focus-visible{outline:3px solid var(--brass);outline-offset:3px;}
+
+  /* ---------- top rule + nav ---------- */
+  .flagline{height:4px;background:linear-gradient(90deg,var(--oxblood) 0 33.4%,var(--paper-on-night) 33.4% 66.7%,var(--ink) 66.7% 100%);}
+  nav{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:22px 0;border-bottom:1px solid var(--rule);
+  }
+  .wordmark{display:flex;align-items:center;gap:12px;text-decoration:none;}
+  .logo-slot{
+    width:44px;height:44px;border:1.5px solid var(--brass);border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Archivo',sans-serif;font-size:9px;font-weight:700;letter-spacing:0.08em;
+    color:var(--brass);text-align:center;line-height:1.2;
+  }
+  .wordmark span{font-family:'Libre Caslon Display',serif;font-size:20px;}
+  .navlinks{display:flex;gap:28px;align-items:center;font-family:'Archivo',sans-serif;font-size:13px;font-weight:600;letter-spacing:0.06em;}
+  .navlinks a{text-decoration:none;color:var(--ink-soft);}
+  .navlinks a:hover{color:var(--oxblood);}
+  .btn{
+    display:inline-block;font-family:'Archivo',sans-serif;font-weight:700;font-size:14px;
+    letter-spacing:0.05em;text-decoration:none;border-radius:3px;
+    padding:13px 26px;transition:background .18s ease,color .18s ease;
+  }
+  .btn-ink{background:var(--ink);color:var(--paper);}
+  .btn-ink:hover{background:var(--oxblood);}
+  .btn-ghost{border:1.5px solid var(--ink);color:var(--ink);}
+  .btn-ghost:hover{border-color:var(--oxblood);color:var(--oxblood);}
+  @media(max-width:760px){.navlinks a:not(.btn){display:none;}}
+
+  /* ---------- hero ---------- */
+  .hero{padding:88px 0 72px;border-bottom:1px solid var(--rule);}
+  .hero .label{margin-bottom:26px;display:block;}
+  .hero h1{
+    font-size:clamp(34px,5.4vw,62px);
+    max-width:19ch;
+  }
+  .hero h1 em{font-style:italic;color:var(--oxblood);}
+  .hero .attribution{
+    margin-top:18px;font-family:'Archivo',sans-serif;font-size:13px;font-weight:600;
+    letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-soft);
+  }
+  .hero .attribution::before{content:"";display:inline-block;width:34px;height:1px;background:var(--brass);vertical-align:middle;margin-right:12px;}
+  .hero p.sub{margin-top:30px;font-size:20px;max-width:52ch;color:var(--ink-soft);}
+  .hero .cta-row{margin-top:38px;display:flex;gap:16px;flex-wrap:wrap;}
+
+  /* ---------- audio demo strip ---------- */
+  .demo{
+    margin:64px 0 0;background:var(--paper-deep);border:1px solid var(--rule);border-radius:6px;
+    padding:26px 30px;display:flex;gap:22px;align-items:center;flex-wrap:wrap;
+  }
+  .playbtn{
+    flex:0 0 auto;width:52px;height:52px;border-radius:50%;background:var(--oxblood);
+    display:flex;align-items:center;justify-content:center;border:none;cursor:pointer;
+  }
+  .playbtn svg{margin-left:3px;}
+  .demo-text{flex:1;min-width:260px;}
+  .demo-text .label{color:var(--brass);margin-bottom:6px;display:block;letter-spacing:0.18em;}
+  .demo-line{font-size:19px;line-height:1.6;}
+  .demo-line .w{transition:background .12s ease,color .12s ease;border-radius:2px;padding:0 1px;}
+  .demo-line .w.lit{background:var(--oxblood);color:var(--paper);}
+  .demo-note{font-size:14px;color:var(--ink-soft);font-style:italic;margin-top:8px;}
+
+  /* ---------- section scaffolding ---------- */
+  section{padding:88px 0;}
+  .section-head{max-width:640px;margin-bottom:56px;}
+  .section-head .label{display:block;margin-bottom:16px;}
+  .section-head h2{font-size:clamp(28px,3.6vw,42px);}
+  .section-head p{margin-top:16px;color:var(--ink-soft);}
+
+  /* ---------- the trail ---------- */
+  .trail{position:relative;}
+  .trail-line{
+    position:absolute;left:26px;top:10px;bottom:10px;width:0;
+    border-left:2px dashed var(--brass-soft);
+  }
+  .era{
+    position:relative;padding:0 0 40px 84px;
+  }
+  .era:last-child{padding-bottom:0;}
+  .era-badge{
+    position:absolute;left:0;top:0;width:54px;height:54px;border-radius:50%;
+    background:var(--paper);border:2px solid var(--brass);
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Archivo',sans-serif;font-size:11px;font-weight:700;color:var(--ink);
+  }
+  .era h3{font-size:22px;}
+  .era .years{font-family:'Archivo',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.16em;color:var(--oxblood);text-transform:uppercase;}
+  .era p{color:var(--ink-soft);font-size:16.5px;max-width:56ch;margin-top:6px;}
+  .era.final .era-badge{background:var(--ink);border-color:var(--ink);color:var(--brass-soft);font-size:16px;}
+  .era.final h3{color:var(--oxblood);}
+  @media(min-width:860px){
+    .trail{display:grid;grid-template-columns:1fr 1fr;column-gap:72px;}
+    .trail-line{left:50%;margin-left:-1px;}
+    .era{padding:0 0 52px 0;}
+    .era:nth-child(odd){grid-column:1;text-align:right;padding-right:64px;}
+    .era:nth-child(odd) .era-badge{left:auto;right:-91px;}
+    .era:nth-child(odd) p{margin-left:auto;}
+    .era:nth-child(even){grid-column:2;padding-left:64px;margin-top:84px;}
+    .era:nth-child(even) .era-badge{left:-91px;}
+  }
+
+  /* ---------- honest framing (night section) ---------- */
+  .night{background:var(--night);color:var(--paper-on-night);}
+  .night .label{color:var(--brass-soft);}
+  .night h2{color:var(--paper-on-night);}
+  .creed{max-width:720px;}
+  .creed h2{font-size:clamp(28px,3.6vw,44px);}
+  .creed p.big{
+    font-family:'Libre Caslon Display',serif;font-size:clamp(20px,2.6vw,27px);
+    line-height:1.5;margin-top:30px;
+  }
+  .creed p.big em{color:var(--brass-soft);font-style:italic;}
+  .creed-points{margin-top:44px;display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));}
+  .creed-points div{border-top:1px solid rgba(194,154,78,.4);padding-top:16px;font-size:16px;color:#C7BFA9;}
+  .creed-points strong{display:block;font-family:'Archivo',sans-serif;font-size:13px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--paper-on-night);margin-bottom:8px;}
+
+  /* ---------- story card sample ---------- */
+  .story-split{display:grid;gap:56px;grid-template-columns:1fr;align-items:start;}
+  @media(min-width:900px){.story-split{grid-template-columns:5fr 6fr;}}
+  .story-card{
+    background:#FBF7EC;border:1px solid var(--rule);border-radius:8px;
+    box-shadow:0 18px 40px -22px rgba(32,43,60,.35);overflow:hidden;
+  }
+  .story-art{
+    height:190px;background:
+      radial-gradient(120% 140% at 20% 0%, #33435E 0%, var(--night) 60%);
+    position:relative;display:flex;align-items:flex-end;padding:22px;
+  }
+  .story-art .stars{position:absolute;top:18px;right:22px;color:var(--brass-soft);letter-spacing:6px;font-size:11px;}
+  .story-art h3{color:var(--paper-on-night);font-size:28px;}
+  .story-art .years{font-family:'Archivo',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.2em;color:var(--brass-soft);text-transform:uppercase;position:absolute;top:20px;left:22px;}
+  .story-body{padding:26px 28px 30px;}
+  .story-body p{font-size:16.5px;}
+  .story-body p + p{margin-top:14px;}
+  .connections{
+    margin-top:22px;background:var(--paper-deep);border-left:3px solid var(--oxblood);
+    padding:16px 18px;border-radius:0 4px 4px 0;font-size:15.5px;
+  }
+  .connections strong{font-family:'Archivo',sans-serif;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--oxblood);display:block;margin-bottom:6px;}
+  .story-meta{list-style:none;display:grid;gap:22px;}
+  .story-meta li{border-top:1px solid var(--rule);padding-top:18px;}
+  .story-meta strong{font-family:'Archivo',sans-serif;font-size:13px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--oxblood);display:block;margin-bottom:6px;}
+  .story-meta p{color:var(--ink-soft);font-size:16.5px;}
+
+  /* ---------- tiers + pricing ---------- */
+  .tiers{display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));margin-bottom:64px;}
+  .tier{
+    border:1px solid var(--rule);border-radius:8px;padding:30px;background:#FBF7EC;
+  }
+  .tier .label{color:var(--brass);}
+  .tier h3{font-size:26px;margin-top:10px;}
+  .tier p{color:var(--ink-soft);font-size:16.5px;margin-top:10px;}
+  .price-card{
+    background:var(--ink);color:var(--paper-on-night);border-radius:10px;
+    padding:52px 40px;display:grid;gap:34px;grid-template-columns:1fr;align-items:center;
+  }
+  @media(min-width:820px){.price-card{grid-template-columns:3fr 2fr;}}
+  .price-card h2{color:var(--paper-on-night);font-size:clamp(26px,3.2vw,38px);}
+  .price-card .fine{color:#B9B09A;margin-top:14px;font-size:16.5px;max-width:44ch;}
+  .price-block{text-align:center;}
+  .price-block .amount{font-family:'Libre Caslon Display',serif;font-size:64px;color:var(--brass-soft);}
+  .price-block .once{font-family:'Archivo',sans-serif;font-size:13px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;margin-top:2px;}
+  .price-block .btn{margin-top:22px;background:var(--oxblood);color:var(--paper-on-night);}
+  .price-block .btn:hover{background:#A03B43;}
+
+  /* ---------- footer ---------- */
+  footer{border-top:1px solid var(--rule);padding:56px 0 72px;text-align:center;}
+  .starline{color:var(--brass);letter-spacing:12px;font-size:13px;margin-bottom:22px;}
+  footer .sig{font-family:'Libre Caslon Display',serif;font-size:20px;}
+  footer .small{margin-top:14px;font-size:14px;color:var(--ink-soft);}
+</style>
+</head>
+<body>
+
+<div class="flagline"></div>
+
+<div class="wrap">
+  <nav>
+    <a class="wordmark" href="index.html">
+      <span class="logo-slot">YOUR<br>LOGO</span>
+      <span>Footsteps Through America</span>
+    </a>
+    <div class="navlinks">
+      <a href="#trail">The Trail</a>
+      <a href="#story">A Story</a>
+      <a href="#creed">Our Promise</a>
+      <a href="app/" class="btn btn-ink">Start the trail</a>
+    </div>
+  </nav>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <span class="label">American history for families &middot; Ages 5&ndash;12</span>
+    <h1>&ldquo;It is Christmas night, 1776, and the American Revolution is <em>almost dead.</em>&rdquo;</h1>
+    <div class="attribution">From The Crossing &middot; Story 3 &middot; The Revolution</div>
+    <p class="sub">True stories from 400 years of America. Vivid, honest, five minutes at a time. Read aloud by a warm narrator while the words light up on screen, so your kids don't just hear history. They stand inside it.</p>
+    <div class="cta-row">
+      <a class="btn btn-ink" href="app/">Start the trail free</a>
+      <a class="btn btn-ghost" href="app/#/story/era02-story03">Read a sample story</a>
+    </div>
+
+    <div class="demo" aria-label="Audio narration demo">
+      <button class="playbtn" aria-label="Play sample narration">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="#F3ECDC"><path d="M4 2.5v13l11-6.5z"/></svg>
+      </button>
+      <div class="demo-text">
+        <span class="label">Follow-along audio</span>
+        <p class="demo-line" id="demoLine">
+          <span class="w">The</span> <span class="w">boats</span> <span class="w">push</span> <span class="w">off</span> <span class="w">into</span> <span class="w">the</span> <span class="w">storm.</span>
+        </p>
+        <p class="demo-note">Every word highlights as it's spoken. Listeners become readers.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- THE TRAIL -->
+<section id="trail">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">The Trail</span>
+      <h2>Ten eras. One hundred stories. Walk the whole road.</h2>
+      <p>Every era ends with a mastery quiz and a badge. Finish all ten and earn the Patriot badge, with a printable certificate worth framing.</p>
+    </div>
+
+    <div class="trail">
+      <div class="trail-line" aria-hidden="true"></div>
+
+      <div class="era">
+        <div class="era-badge">I</div>
+        <div class="years">1607&ndash;1763</div>
+        <h3>Colonies</h3>
+        <p>Jamestown starves, Plymouth prays, and thirteen very different colonies take root on land that was never empty.</p>
+      </div>
+
+      <div class="era">
+        <div class="era-badge">II</div>
+        <div class="years">1763&ndash;1783</div>
+        <h3>The Revolution</h3>
+        <p>Farmers stand on a bridge in Concord and fire at the strongest empire on earth.</p>
+      </div>
+
+      <div class="era">
+        <div class="era-badge">III</div>
+        <div class="years">1783&ndash;1815</div>
+        <h3>A New Nation</h3>
+        <p>The war is won. Now comes the harder part: inventing a country out of paper, promises, and argument.</p>
+      </div>
+
+      <div class="era">
+        <div class="era-badge">IV</div>
+        <div class="years">1815&ndash;1861</div>
+        <h3>Westward</h3>
+        <p>Wagons roll toward the sunset. Some people are chasing a dream. Others are being forced from their homes.</p>
+      </div>
+
+      <div class="era">
+        <div class="era-badge">V</div>
+        <div class="years">1861&ndash;1865</div>
+        <h3>A House Divided</h3>
+        <p>Brothers aim rifles at brothers, and four million enslaved people wait to see if freedom is real.</p>
+      </div>
+
+      <div class="era">
+        <div class="era-badge">VI</div>
+        <div class="years">1865&ndash;1900</div>
+        <h3>Rebuilding &amp; Frontier</h3>
+        <p>A broken country stitches itself back together while railroads race across the plains.</p>
+      </div>
+
+      <div class="era">
+        <div class="era-badge">VII</div>
+        <div class="years">1900&ndash;1929</div>
+        <h3>Machines &amp; Immigrants</h3>
+        <p>Twelve million people sail past a copper statue with a torch, into a country being rebuilt by electricity.</p>
+      </div>
+
+      <div class="era">
+        <div class="era-badge">VIII</div>
+        <div class="years">1929&ndash;1945</div>
+        <h3>Depression &amp; War</h3>
+        <p>Dust swallows the farms, then the world catches fire, and ordinary Americans answer.</p>
+      </div>
+
+      <div class="era">
+        <div class="era-badge">IX</div>
+        <div class="years">1945&ndash;1975</div>
+        <h3>Freedom's Unfinished Work</h3>
+        <p>A seamstress keeps her seat, a preacher describes a dream, and America is asked to keep its oldest promise.</p>
+      </div>
+
+      <div class="era">
+        <div class="era-badge">X</div>
+        <div class="years">1975&ndash;Today</div>
+        <h3>Modern America</h3>
+        <p>Rockets, computers, and new neighbors. The story speeds up, and now it includes you.</p>
+      </div>
+
+      <div class="era final">
+        <div class="era-badge">&#9733;</div>
+        <div class="years">All ten eras complete</div>
+        <h3>The Patriot Badge</h3>
+        <p>The final mastery quiz, the premium certificate, and a kid who knows the whole story. The proud parts and the hard parts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR PROMISE -->
+<section class="night" id="creed">
+  <div class="wrap">
+    <div class="creed">
+      <span class="label">Our Promise</span>
+      <h2>Patriot, not propaganda.</h2>
+      <p class="big">We love this country the way you love family: enough to tell the truth. Valley Forge <em>and</em> the Trail of Tears. The moon landing <em>and</em> the march across the bridge. <em>Honest love tells the whole story.</em></p>
+      <div class="creed-points">
+        <div><strong>Story first</strong>You will never find a lecture here. Present tense, real people, five minutes.</div>
+        <div><strong>Honestly told</strong>No varnish, no despair. Hard chapters end with the people who endured and rebuilt.</div>
+        <div><strong>Built for families</strong>Every story closes with one question worth asking at the dinner table.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SAMPLE STORY -->
+<section id="story">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">Inside a story</span>
+      <h2>Five minutes. One life. History that breathes.</h2>
+    </div>
+
+    <div class="story-split">
+      <div class="story-card">
+        <div class="story-art">
+          <span class="years">A House Divided &middot; Story 4</span>
+          <span class="stars">&#9733; &#9733; &#9733;</span>
+          <h3>The Conductor</h3>
+        </div>
+        <div class="story-body">
+          <p>Harriet Tubman is about five feet tall, and she is the most wanted woman in Maryland.</p>
+          <p>When Harriet crosses into Pennsylvania, she is free. She later says she looked at her hands to see if she was the same person. And then she does the thing that makes her a legend.</p>
+          <p>She goes back.</p>
+          <div class="connections">
+            <strong>Connections &middot; Courage for others</strong>
+            Harriet was already free. Every trip back was a choice to risk everything she had gained for someone else. Ask together: who would you go back for?
+          </div>
+        </div>
+      </div>
+
+      <ul class="story-meta">
+        <li>
+          <strong>Two reading levels</strong>
+          <p>The same story, told twice. A gentler telling for ages 5&ndash;8 and a fuller one for ages 9&ndash;12, so siblings walk the same trail together.</p>
+        </li>
+        <li>
+          <strong>Warm narration, glowing words</strong>
+          <p>Professional audio with word-by-word highlighting. Early readers follow along; strong readers race ahead.</p>
+        </li>
+        <li>
+          <strong>Badges that mean something</strong>
+          <p>Each era ends with a 25-question mastery quiz. Pass it and the badge is earned, not given.</p>
+        </li>
+        <li>
+          <strong>One question for the table</strong>
+          <p>Every story hands parents the conversation. You bring the mashed potatoes; we bring the moment.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- TIERS + PRICING -->
+<section id="pricing">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">Simple on purpose</span>
+      <h2>Buy it once. Keep it forever.</h2>
+    </div>
+
+    <div class="tiers">
+      <div class="tier">
+        <span class="label">Ages 5&ndash;8</span>
+        <h3>Little Footsteps</h3>
+        <p>Fifty gentle tellings with bright art and shorter journeys. First badges, first heroes, first hard questions asked softly.</p>
+      </div>
+      <div class="tier">
+        <span class="label">Ages 9&ndash;12</span>
+        <h3>The Full Trail</h3>
+        <p>Fifty full stories with the honest edges left on. Mastery quizzes, all ten era badges, and the Patriot certificate.</p>
+      </div>
+      <div class="tier">
+        <span class="label">For the grown-ups</span>
+        <h3>Listening In</h3>
+        <p>Parents report a suspicious tendency to keep listening after the kids leave the room. We take no responsibility.</p>
+      </div>
+    </div>
+
+    <div class="price-card">
+      <div>
+        <h2>One price. Every story, every badge, the whole family.</h2>
+        <p class="fine">No subscription. No ads. No locked chapters. Your first three stories are free, and the trail is waiting.</p>
+      </div>
+      <div class="price-block">
+        <div class="amount">$29</div>
+        <div class="once">once &middot; forever</div>
+        <a class="btn" href="app/">Start the trail free</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="starline">&#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733; &#9733;</div>
+    <div class="sig">Footsteps Through America</div>
+    <p class="small">True stories, told straight, for the next 250 years. &middot; hello@footstepsamerica.app</p>
+  </div>
+</footer>
+
+<script>
+  // Word-highlight demo loop (mirrors the ElevenLabs sync feature)
+  (function(){
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(reduce) return;
+    var words = document.querySelectorAll('#demoLine .w');
+    var i = 0;
+    setInterval(function(){
+      words.forEach(function(w){ w.classList.remove('lit'); });
+      words[i].classList.add('lit');
+      i = (i + 1) % words.length;
+    }, 420);
+  })();
+</script>
+
+</body>
+</html>

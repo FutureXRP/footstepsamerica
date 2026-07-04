@@ -1,0 +1,99 @@
+{
+  "eras": [
+    {
+      "era": 1,
+      "numeral": "I",
+      "title": "Colonies",
+      "years": "1607–1763",
+      "blurb": "Jamestown starves, Plymouth prays, and thirteen very different colonies take root on land that was never empty.",
+      "storyCount": 5,
+      "available": false
+    },
+    {
+      "era": 2,
+      "numeral": "II",
+      "title": "The Revolution",
+      "years": "1763–1783",
+      "blurb": "Farmers stand on a bridge in Concord and fire at the strongest empire on earth.",
+      "storyCount": 5,
+      "available": true
+    },
+    {
+      "era": 3,
+      "numeral": "III",
+      "title": "A New Nation",
+      "years": "1783–1815",
+      "blurb": "The war is won. Now comes the harder part: inventing a country out of paper, promises, and argument.",
+      "storyCount": 5,
+      "available": false
+    },
+    {
+      "era": 4,
+      "numeral": "IV",
+      "title": "Westward",
+      "years": "1815–1861",
+      "blurb": "Wagons roll toward the sunset. Some people are chasing a dream. Others are being forced from their homes.",
+      "storyCount": 5,
+      "available": false
+    },
+    {
+      "era": 5,
+      "numeral": "V",
+      "title": "A House Divided",
+      "years": "1861–1865",
+      "blurb": "Brothers aim rifles at brothers, and four million enslaved people wait to see if freedom is real.",
+      "storyCount": 5,
+      "available": false
+    },
+    {
+      "era": 6,
+      "numeral": "VI",
+      "title": "Rebuilding & Frontier",
+      "years": "1865–1900",
+      "blurb": "A broken country stitches itself back together while railroads race across the plains.",
+      "storyCount": 5,
+      "available": false
+    },
+    {
+      "era": 7,
+      "numeral": "VII",
+      "title": "Machines & Immigrants",
+      "years": "1900–1929",
+      "blurb": "Twelve million people sail past a copper statue with a torch, into a country being rebuilt by electricity.",
+      "storyCount": 5,
+      "available": false
+    },
+    {
+      "era": 8,
+      "numeral": "VIII",
+      "title": "Depression & War",
+      "years": "1929–1945",
+      "blurb": "Dust swallows the farms, then the world catches fire, and ordinary Americans answer.",
+      "storyCount": 5,
+      "available": false
+    },
+    {
+      "era": 9,
+      "numeral": "IX",
+      "title": "Freedom's Unfinished Work",
+      "years": "1945–1975",
+      "blurb": "A seamstress keeps her seat, a preacher describes a dream, and America is asked to keep its oldest promise.",
+      "storyCount": 5,
+      "available": false
+    },
+    {
+      "era": 10,
+      "numeral": "X",
+      "title": "Modern America",
+      "years": "1975–Today",
+      "blurb": "Rockets, computers, and new neighbors. The story speeds up, and now it includes you.",
+      "storyCount": 5,
+      "available": false
+    }
+  ],
+  "capstone": {
+    "title": "The Patriot Badge",
+    "years": "All ten eras complete",
+    "blurb": "The final mastery quiz, the premium certificate, and a kid who knows the whole story. The proud parts and the hard parts."
+  }
+}
